@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Client Onboarding
-permalink: /clients/onboarding/
+title: Clients
+permalink: /clients/
 ---
 
 Capital Technology Services Now in Philadelphia and Nashville
