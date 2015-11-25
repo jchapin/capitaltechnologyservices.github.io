@@ -8,3 +8,5 @@ twitter_username: capitaltech
 github_username: capitaltechnologyservices
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: _sass
