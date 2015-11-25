@@ -1,14 +1,34 @@
+//
 // Variables
+//
 
+$brand-color : #09F;
+$gray        : #666;
+
+//
 // Tag Styles
-a:link { }
-a:visited { }
-a:hover { }
-a:focus { }
-a:active { }
+//
 
+a {
+  color           : $brand-color;
+  text-decoration : none;
+  &:visited { color : darken($brand-color, 15%); }
+  &:hover {
+    color           : lighten($brand-color, 15%);
+    text-decoration : underline;
+  }
+  &:focus { }
+  &:active { }  
+}
 
+//
 // Class Styles
+//
+
+// Font sizes
+.smaller-font { font-size : smaller; }
+
+// SVG icons
 .icon svg {
   display        : inline-block;
   width          : 2em;
@@ -16,4 +36,11 @@ a:active { }
   vertical-align : middle;
 }
 
+// Images with borders
+.framed {
+  border : 1px solid $gray;
+}
+
+//
 // ID Styles
+//
