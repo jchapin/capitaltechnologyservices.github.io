@@ -1,6 +1,6 @@
 # Site Settings
 title: Capital Technology Services
-email: support@cts-llc.net
+email: sales@cts-llc.net
 description: Software Development and Consulting
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.cts-llc.net" # the base hostname & protocol for your site

@@ -2,23 +2,35 @@
 // Variables
 //
 
-$brand-color : #09F;
-$gray        : #666;
+$brand-color    : #0C5774;
+$brand-light    : lighten($brand-color, 20%);
+$brand-lighter  : lighten($brand-color, 30%);
+$brand-lightest : lighten($brand-color, 40%);
+$brand-dark     : darken($brand-color, 20%);
+$brand-darker   : darken($brand-color, 30%);
+$brand-darkest  : darken($brand-color, 40%);
+
+$gray          : #666;
+$gray-light    : lighten($gray, 20%);
+$gray-lighter  : lighten($gray, 30%);
+$gray-lightest : lighten($gray, 40%);
+$gray-dark     : darken($gray, 20%);
+$gray-darker   : darken($gray, 30%);
+$gray-darkest  : darken($gray, 40%);
+
+$print-light : #EFEFEF;
 
 //
 // Tag Styles
 //
 
+html, body { height: 100%; }
+
 a {
   color           : $brand-color;
   text-decoration : none;
-  &:visited { color : darken($brand-color, 15%); }
-  &:hover {
-    color           : lighten($brand-color, 15%);
-    text-decoration : underline;
-  }
-  &:focus { }
-  &:active { }  
+  &:visited { color : $brand-dark; }
+  &:hover { color : $brand-light; }
 }
 
 //
@@ -28,11 +40,14 @@ a {
 // Font sizes
 .smaller-font { font-size : smaller; }
 
+// Lists
+.no-marker { list-style : none; }
+
 // SVG icons
 .icon svg {
   display        : inline-block;
-  width          : 2em;
-  height         : 2em;
+  width          : 1.5em;
+  height         : 1.5em;
   vertical-align : middle;
 }
 
@@ -41,6 +56,39 @@ a {
   border : 1px solid $gray;
 }
 
+.dark {
+  color : $print-light;
+  a {
+    color           : $brand-lighter;
+    text-decoration : none;
+    &:visited { color : $brand-light; }
+    &:hover { color : $brand-lightest; }
+  }
+}
+
 //
 // ID Styles
 //
+
+#content {
+  min-height    : 100%;
+  margin-bottom : -250px;
+}
+#content:after {
+  content : "";
+  display : block;
+  height  : 250px;
+}
+#page-footer {
+  background-color : $brand-color;
+  border-top       : 1px solid $brand-dark;
+  height           : 250px;
+  margin           : 2em 0 0 0;
+  padding          : 1.5em;
+}
+#page-header {
+  background-color : $brand-color;
+  border-bottom    : 1px solid $brand-dark;
+  margin           : 0 0 2em 0;
+  padding          : 0.5em;
+}
