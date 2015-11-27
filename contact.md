@@ -42,8 +42,8 @@ Philadelphia
       <li>CityCoho is to the right of the door on 24<sup>th</sup> Street</li>
     </ul>
   </div>
-  <div class="four columns"><img class="framed" src="/images/philadelphia.png"></div>
-  <div class="four columns"><img class="framed" src="/images/citycoho.png"></div>
+  <div class="four columns"><img class="framed u-max-full-width" src="/images/philadelphia.png"></div>
+  <div class="four columns"><img class="framed u-max-full-width" src="/images/citycoho.png"></div>
 </div>
 
 Nashville
@@ -54,6 +54,6 @@ Nashville
     <p>The Skillery<br>1323 6TH AVE N<br>NASHVILLE TN 37208-2603</p>
     <p><a href="https://maps.google.com?daddr=1323+6TH+AVE+N+NASHVILLE+TN+37208" target="_blank">Get Directions</a></p>
   </div>
-  <div class="four columns"><img class="framed" src="/images/nashville.png"></div>
-  <div class="four columns"><img class="framed" src="/images/theskillery.png"></div>
+  <div class="four columns"><img class="framed u-max-full-width" src="/images/nashville.png"></div>
+  <div class="four columns"><img class="framed u-max-full-width" src="/images/theskillery.png"></div>
 </div>

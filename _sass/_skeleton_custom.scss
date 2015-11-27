@@ -1,5 +1,9 @@
 .navbar { display : none; }
 
+@media (max-width: 550px) {
+  #mobile-menu { display : block; }
+}
+
 /* Larger than phone */
 @media (min-width: 550px) {}
 
