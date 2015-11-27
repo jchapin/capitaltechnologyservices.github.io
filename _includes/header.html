@@ -1,19 +1,18 @@
-<header class="dark" id="page-header">
+<header class="light" id="page-header">
   <div class="container">
     <div class="row">
-      <div class="twelve columns">
+      <div class="three columns">
+        <a href="{{ site.baseurl }}/" title="{{ site.title }}"><img class="u-max-full-width" src="/images/logo.png"></a>
+      </div>
+      <div class="nine columns">
         <nav class="navbar">
           <ul class="navbar-list">
-            <li class="navbar-item navbar-brand-item">
-              <a class="navbar-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <li class="navbar-item">
+              <a class="navbar-link" href="/services">Services</a>
             </li>
-            {% for page in site.pages %}
-              {% if page.title %}
-              <li class="navbar-item">
-                <a class="navbar-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
+            <li class="navbar-item">
+              <a class="navbar-link" href="/contact">Contact</a>
+            </li>
             <li class="navbar-item">
               <a class="navbar-link icon" href="#" id="mobile-menu">
                 <svg viewBox="0 0 18 15">

@@ -2,13 +2,13 @@
 // Variables
 //
 
-$brand-color    : #369;
-$brand-light    : lighten($brand-color, 20%);
-$brand-lighter  : lighten($brand-color, 30%);
-$brand-lightest : lighten($brand-color, 40%);
-$brand-dark     : darken($brand-color, 20%);
-$brand-darker   : darken($brand-color, 30%);
-$brand-darkest  : darken($brand-color, 40%);
+$accent          : #789ABC;
+$accent-light    : lighten($accent, 20%);
+$accent-lighter  : lighten($accent, 30%);
+$accent-lightest : lighten($accent, 40%);
+$accent-dark     : darken($accent, 20%);
+$accent-darker   : darken($accent, 30%);
+$accent-darkest  : darken($accent, 40%);
 
 $gray          : #666;
 $gray-light    : lighten($gray, 20%);
@@ -18,7 +18,9 @@ $gray-dark     : darken($gray, 20%);
 $gray-darker   : darken($gray, 30%);
 $gray-darkest  : darken($gray, 40%);
 
-$print-light : #EFEFEF;
+$print-dark  : #000;
+$print-light : #FFF;
+
 
 //
 // Tag Styles
@@ -27,10 +29,13 @@ $print-light : #EFEFEF;
 html, body { height: 100%; }
 
 a {
-  color           : $brand-color;
+  color           : $accent-dark;
   text-decoration : none;
-  &:visited { color : $brand-dark; }
-  &:hover { color : $brand-light; }
+  &:visited { color : $accent-darker; }
+  &:hover {
+    color           : $accent;
+    text-decoration : underline;
+  }
 }
 
 //
@@ -57,14 +62,31 @@ a {
   border : 1px solid $gray;
 }
 
+
 .dark {
   color : $print-light;
   a {
-    color           : $brand-lighter;
+    color           : $accent-lighter;
     text-decoration : none;
-    &:visited { color : $brand-light; }
-    &:hover { color : $brand-lightest; }
+    &:visited { color : $accent-light; }
+    &:hover {
+      color           : $accent-lightest;
+      text-decoration : underline;
+    }
   }
+}
+
+.light {
+  color : $print-dark;
+  a {
+    color           : $gray-darker;
+    text-decoration : none;
+    &:visited { color : $gray-darkest; }
+    &:hover {
+      color           : $gray;
+      text-decoration : underline;
+    }
+  }  
 }
 
 //
@@ -81,15 +103,15 @@ a {
   height  : 250px;
 }
 #page-footer {
-  background-color : $brand-color;
-  border-top       : 1px solid $brand-dark;
+  background-color : $accent;
+  border-top       : 1px solid $accent-dark;
   height           : 250px;
   margin           : 2em 0 0 0;
   padding          : 1.5em;
 }
 #page-header {
-  background-color : $brand-color;
-  border-bottom    : 1px solid $brand-dark;
+  background-color : $accent;
+  border-bottom    : 1px solid $accent-dark;
   margin           : 0 0 2em 0;
   padding          : 0.5em;
 }
