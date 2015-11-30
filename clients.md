@@ -4,42 +4,6 @@ title: Clients
 permalink: /clients/
 ---
 
-Capital Technology Services Now in Philadelphia and Nashville
-=============================================================
-
-My wife and I are just finishing up the major work of our move to Philadelphia
-and are getting settled into our new home. We have utilities connected, and are
-only awaiting delivery of a new couch, that's when we'll finally feel back to
-normal.
-
-Now that I will be based primarily in Pennsylvania, and an occasional visitor to
-Nashville on business I wanted to share content that will be on our web site
-very soon. Our new client onboarding documentation has two very important steps,
-making sure every stakeholder in your organization has a Github.com account and
-a #Slack account.
-
-Most everyone has already completed these two steps and sent us back their
-Github.com username. This is the singular most important step in our new
-onboarding documentation. All of the members of your organization that need
-updates on our progress should have an account so that we can add them to the
-relevant client "team".
-
-Second, we're trying out #Slack as our virtual office solution. It allows us to
-chat, receive notifications from our hosting services and infrastructure,
-launch video conferences, and more. We're going to invite you to join us on so
-that we can continue to hold weekly project planning meetings on #Slack.
-
-Finally, thank you so much for your business. We hope that the past year and a
-half has led to significant improvement in your projects and we're hoping to
-implement better tools for garnering feedback on what your priorities and needs
-are on a week to week basis. We still have developers in Nashville at The
-Skillery on 6th Avenue North and I'll be at our new home at CityCoHo in Center
-City in Philadelphia.
-
-John Chapin
-
------
-
 Client Onboarding
 -----------------
 
