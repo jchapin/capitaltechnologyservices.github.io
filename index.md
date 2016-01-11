@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Web Application Development
 permalink: /
 ---
 
@@ -15,7 +15,7 @@ process that minimizes risk while delivering product improvements every single
 week.
 
 Software Engineering Consulting Redefined as ART
-================================================
+------------------------------------------------
 
 Audit, Rescue, and Tune are our key services. We audit software products and
 development teams and deliver suggestions on how to improve the product and the
@@ -24,7 +24,7 @@ operating guidelines for stakeholders and developers. We tune applications to
 deliver their promised functionality more expediently and efficiently.
 
 Technologies, Methodologies, and Philosophies
-=============================================
+---------------------------------------------
 
 We practice Agile software development, taking lessons from the Agile Unified
 Process, Rational Unified Process, and Scrum.
