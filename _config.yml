@@ -10,3 +10,7 @@ github_username: capitaltechnologyservices
 markdown: kramdown
 sass:
   sass_dir: _sass
+gems:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from

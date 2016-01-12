@@ -2,8 +2,11 @@
 layout: page
 title: Contact
 permalink: /contact/
+redirect_from:
+  - /philadelphia/
+  - /philly/
+  - /qr-philly/
 ---
-
 
 <div class="row">
   <div class="twelve columns">
@@ -20,10 +23,7 @@ permalink: /contact/
         <td>Phone:</td>
         <td><a href="tel:6152502449">(615)-250-2449</a></td>
       </tr>
-      <tr>
-        <td>Fax:</td>
-        <td>(615)-250-2489</td>
-      </tr>
+      <tr><td>Fax:</td><td>(615)-250-2489</td></tr>
     </table>
   </div>
 </div>

@@ -1,18 +1,36 @@
 ---
 layout: page
-title: Web Application Development
+title: 'Our Focus: Web Application Development'
 permalink: /
 ---
 
-Clients: Small, Medium, and Large
----------------------------------
+Web-based applications and services are the backbone of Internet companies.
+Nearly all mobile, desktop, and wearable applications send to or consume data
+from software residing on the Internet. That's why you can't risk working with
+vendors who treat the the most critical components of your project as an
+afterthought. The team at Capital Technology Services doesn't chase trends, we
+build well engineered and tested back ends.
 
-Small businesses, startups, health care organizations, local, state, and federal
-government all develop software for their unique operational needs. We have
-development and consulting experience with clients in each of these domains.
-Our approach is similar with every client. We build an iterative development
-process that minimizes risk while delivering product improvements every single
-week.
+<h4>
+  We work in Ruby and PHP, but have developed software projects that connect to
+  many other computing platforms. We've worked with everything from mainframes
+  to mobile.
+</h4>
+
+Our Clients: No Two Alike
+=========================
+
+Our consultants have worked with small businesses, startups, health care
+organizations, local, state, and federal government agencies. All of the
+stakeholders we have worked with have unique requirements and concerns, but our
+process and philosophy remains the same no matter the project. We iteratively
+build, test, and improve our client's projects bringing data to bear whenever
+possible in making decisions.
+
+<h4>
+  Our well defined and constantly improving processes lower your risk and lower
+  your cost.
+</h4>
 
 Software Engineering Consulting Redefined as ART
 ------------------------------------------------
