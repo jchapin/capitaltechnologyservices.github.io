@@ -1,7 +1,12 @@
 ---
 layout: page
-title: 'Our Focus: Web Application Development'
 permalink: /
+title: 'Our Focus: Web Application Development'
+title_short: 'Web App Development'
+redirect_from:
+  - /philadelphia/
+  - /philly/
+  - /qr-philly/
 ---
 
 Web-based applications and services are the backbone of Internet companies.
@@ -18,7 +23,7 @@ build well engineered and tested back ends.
 </h4>
 
 Our Clients: No Two Alike
-=========================
+-------------------------
 
 Our consultants have worked with small businesses, startups, health care
 organizations, local, state, and federal government agencies. The
@@ -33,7 +38,7 @@ possible in making decisions.
 </h4>
 
 Our Goal: Simple, Fast, and Profitable
-======================================
+--------------------------------------
 
 Building a complicated system takes time. We want to build the simplest form of
 the product that delivers the highest value for our customer and have them start
@@ -54,6 +59,12 @@ redundancy of the project.
   <div class="eight columns">
     <div class="sendgrid-subscription-widget" data-token="qmvriyXu89fpr5BIfBE6JFO4SotD7JmxbTchCw51dDP0%2Bv5hMrMACWXA0MOFRAVB"></div>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://s3.amazonaws.com/subscription-cdn/0.2/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "sendgrid-subscription-widget-js");</script>
+    <noscript>
+      <p>
+        Call or e-mail us via the information on our
+        <a href="/contact">contact page</a>.
+      </p>
+    </noscript>
   </div>
   <div class="two columns">&nbsp;</div>
 </div>

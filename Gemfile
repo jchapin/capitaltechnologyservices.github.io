@@ -3,3 +3,4 @@ ruby '2.2.3'
 
 gem 'jekyll'
 gem 'jekyll-redirect-from'
+gem 'jekyll-sitemap'
