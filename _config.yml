@@ -12,5 +12,6 @@ sass:
   sass_dir: _sass
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
 whitelist:
   - jekyll-redirect-from
