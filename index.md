@@ -2,6 +2,10 @@
 layout: page
 title: 'Our Focus: Web Application Development'
 permalink: /
+redirect_from:
+  - /philadelphia/
+  - /philly/
+  - /qr-philly/
 ---
 
 Web-based applications and services are the backbone of Internet companies.

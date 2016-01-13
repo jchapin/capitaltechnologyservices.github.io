@@ -2,10 +2,6 @@
 layout: page
 title: Contact
 permalink: /contact/
-redirect_from:
-  - /philadelphia/
-  - /philly/
-  - /qr-philly/
 ---
 
 <div class="row">
