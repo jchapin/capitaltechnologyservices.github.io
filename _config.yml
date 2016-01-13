@@ -1,8 +1,9 @@
 # Site Settings
 title: Capital Technology Services
-email: sales@cts-llc.net
-description: 'Capital Technology Services specializes in web application development in Ruby and PHP. The company has development staff based in Philadelphia, PA and Nashville, TN.'
 baseurl: "" # the subpath of your site, e.g. /blog/
+description: 'Capital Technology Services specializes in web application development in Ruby and PHP. The company has development staff based in Philadelphia, PA and Nashville, TN.'
+email: sales@cts-llc.net
+language: en
 url: "http://www.cts-llc.net" # the base hostname & protocol for your site
 twitter_username: capitaltech
 github_username: capitaltechnologyservices
