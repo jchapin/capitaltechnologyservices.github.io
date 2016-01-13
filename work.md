@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Clients
-permalink: /clients/
+title: Examples of Our Recent Work
+permalink: /work/
 ---
-
-Examples of our recent work:
 
 * Revived the e-commerce presence of a specialty manufacturer of musical equipment
 * Assisted multiple counties and cities in Tennessee in preparing over $1.7B in property tax bills

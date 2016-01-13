@@ -21,15 +21,15 @@ Our Clients: No Two Alike
 =========================
 
 Our consultants have worked with small businesses, startups, health care
-organizations, local, state, and federal government agencies. All of the
+organizations, local, state, and federal government agencies. The
 stakeholders we have worked with have unique requirements and concerns, but our
 process and philosophy remains the same no matter the project. We iteratively
 build, test, and improve our client's projects bringing data to bear whenever
 possible in making decisions.
 
 <h4>
-  Our well defined and constantly improving processes lower your risk and lower
-  your cost.
+  All of our clients benefit from our processes which are designed to lower risk
+  and cost.
 </h4>
 
 Our Goal: Simple, Fast, and Profitable
@@ -49,15 +49,11 @@ redundancy of the project.
 
 <h1 class="text-center">Request More Information</h1>
 
-<form>
-  <div class="row">
-    <div class="two columns">&nbsp;</div>
-    <div class="six columns">
-      <input class="u-full-width" type="email" placeholder="e-mail address" id="email">
-    </div>
-    <div class="two columns">
-      <input class="button-primary" type="submit" value="Submit">
-    </div>
-    <div class="two columns">&nbsp;</div>
+<div class="row">
+  <div class="two columns">&nbsp;</div>
+  <div class="eight columns">
+    <div class="sendgrid-subscription-widget" data-token="qmvriyXu89fpr5BIfBE6JFO4SotD7JmxbTchCw51dDP0%2Bv5hMrMACWXA0MOFRAVB"></div>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://s3.amazonaws.com/subscription-cdn/0.2/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "sendgrid-subscription-widget-js");</script>
   </div>
-</form>
+  <div class="two columns">&nbsp;</div>
+</div>

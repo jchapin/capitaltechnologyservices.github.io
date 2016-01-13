@@ -1,28 +1,4 @@
 //
-// Variables
-//
-
-$accent          : #789ABC;
-$accent-light    : lighten($accent, 20%);
-$accent-lighter  : lighten($accent, 30%);
-$accent-lightest : lighten($accent, 40%);
-$accent-dark     : darken($accent, 20%);
-$accent-darker   : darken($accent, 30%);
-$accent-darkest  : darken($accent, 40%);
-
-$gray          : #666;
-$gray-light    : lighten($gray, 20%);
-$gray-lighter  : lighten($gray, 30%);
-$gray-lightest : lighten($gray, 40%);
-$gray-dark     : darken($gray, 20%);
-$gray-darker   : darken($gray, 30%);
-$gray-darkest  : darken($gray, 40%);
-
-$print-dark  : #000;
-$print-light : #FFF;
-
-
-//
 // Tag Styles
 //
 
@@ -62,10 +38,7 @@ a {
 }
 
 // Images with borders
-.framed {
-  border : 1px solid $gray;
-}
-
+.framed { border : 1px solid $gray; }
 
 .dark {
   color : $print-light;
@@ -93,6 +66,25 @@ a {
   }
 }
 
+.sendgrid-subscription-widget {
+  text-align : center;
+  form {
+    label {
+      input { width : 100%; }
+      span { display : none; }
+    }
+    input[type="submit"] {
+      color: $print-light;
+      background-color: $accent-dark;
+      border-color: $accent-dark; }
+    input[type="submit"]:hover,
+    input[type="submit"]:focus {
+      color: $print-light;
+      background-color: $accent-darker;
+      border-color: $accent-darker; }
+  }
+}
+
 //
 // ID Styles
 //
@@ -107,15 +99,15 @@ a {
   height  : 250px;
 }
 #page-footer {
-  background-color : $accent;
-  border-top       : 1px solid $accent-dark;
+  background-color : $accent-lighter;
+  border-top       : 1px solid $accent-light;
   height           : 250px;
   margin           : 2em 0 0 0;
   padding          : 1.5em;
 }
 #page-header {
-  background-color : $accent;
-  border-bottom    : 1px solid $accent-dark;
+  background-color : $accent-light;
+  border-bottom    : 1px solid $accent;
   margin           : 0 0 2em 0;
 }
 #site-logo { width: 207px; }
