@@ -23,7 +23,7 @@ build well engineered and tested back ends.
 </h4>
 
 Our Clients: No Two Alike
-=========================
+-------------------------
 
 Our consultants have worked with small businesses, startups, health care
 organizations, local, state, and federal government agencies. The
@@ -38,7 +38,7 @@ possible in making decisions.
 </h4>
 
 Our Goal: Simple, Fast, and Profitable
-======================================
+--------------------------------------
 
 Building a complicated system takes time. We want to build the simplest form of
 the product that delivers the highest value for our customer and have them start
