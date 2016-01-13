@@ -32,31 +32,32 @@ possible in making decisions.
   your cost.
 </h4>
 
-Software Engineering Consulting Redefined as ART
-------------------------------------------------
+Our Goal: Simple, Fast, and Profitable
+======================================
 
-Audit, Rescue, and Tune are our key services. We audit software products and
-development teams and deliver suggestions on how to improve the product and the
-processes used to create it. We rescue products in crisis and establish new
-operating guidelines for stakeholders and developers. We tune applications to
-deliver their promised functionality more expediently and efficiently.
+Building a complicated system takes time. We want to build the simplest form of
+the product that delivers the highest value for our customer and have them start
+using it as soon as possible. We like to write clear, well tested code and
+deploy to infrastructure that guarantees the performance, security, and
+redundancy of the project.
 
-Technologies, Methodologies, and Philosophies
----------------------------------------------
+<h4>
+  Complicated can wait. We want our work to cut expenses or increase your
+  income in short order. Your bottom line is the most important metric when it
+  comes to measuring our success.
+</h4>
 
-We practice Agile software development, taking lessons from the Agile Unified
-Process, Rational Unified Process, and Scrum.
+<h1 class="text-center">Request More Information</h1>
 
-We are well versed in JavaScript, jQuery, and Bootstrap 2.x & 3.x for client
-side UI/UX development.
-
-Server side languages and frameworks that we support include Ruby (Ruby on Rails
-and Sinatra) and PHP (Zend Framework 1.x).
-
-Hosting providers and cloud platforms that we work with include Amazon Web
-Services (S3, Route53, CloudFront, RDS, and more), Heroku, and Rackspace
-(Cloud Sites, Servers, and Storage).
-
-Our favorite operating systems include OS X, Red Hat Linux, Debian GNU/Linux,
-and Ubuntu. Additionally we provide consultation for Apache, nginx, and MySQL
-servers on Linux and *nix based operating systems.
+<form>
+  <div class="row">
+    <div class="two columns">&nbsp;</div>
+    <div class="six columns">
+      <input class="u-full-width" type="email" placeholder="e-mail address" id="email">
+    </div>
+    <div class="two columns">
+      <input class="button-primary" type="submit" value="Submit">
+    </div>
+    <div class="two columns">&nbsp;</div>
+  </div>
+</form>
