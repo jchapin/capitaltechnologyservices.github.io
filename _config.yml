@@ -1,12 +1,16 @@
-# Site settings
+# Site Settings
 title: Capital Technology Services
-email: support@cts-llc.net
-description: > # this means to ignore newlines until "baseurl:"
-  Software Development and Consulting
+email: sales@cts-llc.net
+description: Software Development and Consulting
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.cts-llc.net" # the base hostname & protocol for your site
-twitter_username:
+twitter_username: capitaltech
 github_username: capitaltechnologyservices
-
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: _sass
+gems:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
