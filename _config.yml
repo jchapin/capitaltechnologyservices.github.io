@@ -1,7 +1,7 @@
 # Site Settings
 title: Capital Technology Services
 email: sales@cts-llc.net
-description: Software Development and Consulting
+description: 'Capital Technology Services specializes in web application development in Ruby and PHP. The company has development staff based in Philadelphia, PA and Nashville, TN.'
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.cts-llc.net" # the base hostname & protocol for your site
 twitter_username: capitaltech
