@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'Our Focus: Web Application Development'
+title_short: 'Web App Development'
 permalink: /
 redirect_from:
   - /philadelphia/
