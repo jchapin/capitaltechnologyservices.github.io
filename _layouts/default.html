@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{% if page.language %}{{ page.language }}{% elsif site.language %}{{ site.language }}{% else %}en{% endif %}">
   {% include head.html %}
   <body>
     {% include header.html %}

@@ -52,7 +52,7 @@ redundancy of the project.
   comes to measuring our success.
 </h4>
 
-<h1 class="text-center">Request More Information</h1>
+<h2 class="text-center">Request More Information</h2>
 
 <div class="row">
   <div class="two columns">&nbsp;</div>
