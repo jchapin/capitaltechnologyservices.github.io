@@ -44,9 +44,9 @@
         </ul>
       </div>
       <div class="six columns">
-        <ul class="no-marker">
-          <li>&copy; 2015-2016 {{ site.title }} All Rights Reserved</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <ul class="no-marker" itemscope itemtype="http://schema.org/Organization">
+          <li>&copy; 2015-2016 <span itemprop="name">{{ site.title }}</span> All Rights Reserved</li>
+          <li><a href="mailto:{{ site.email }}"><span itemprop="email">{{ site.email }}</span></a></li>
         </ul>
       </div>
     </div>
