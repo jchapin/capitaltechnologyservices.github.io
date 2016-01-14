@@ -5,8 +5,10 @@ description: 'Capital Technology Services specializes in web application develop
 email: sales@cts-llc.net
 language: en
 url: "http://www.cts-llc.net" # the base hostname & protocol for your site
+# Social Media
 twitter_username: capitaltech
 github_username: capitaltechnologyservices
+linkedin_company_name:
 # Build settings
 markdown: kramdown
 sass:
