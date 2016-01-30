@@ -10,6 +10,7 @@
 // Display the menu icon at low resolutions
 @media (max-width: 550px) {
   .navbar { float : left; }
+  .hidden-xs { display : none; }
 }
 
 /* Larger than phone */

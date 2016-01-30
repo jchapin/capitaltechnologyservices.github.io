@@ -3,7 +3,10 @@ title: Capital Technology Services
 baseurl: "" # the subpath of your site, e.g. /blog/
 description: 'Capital Technology Services specializes in web application development in Ruby and PHP. The company has development staff based in Philadelphia, PA and Nashville, TN.'
 email: sales@cts-llc.net
+telephone: '(615) 250-2449'
+faxNumber: '(615) 250-2489'
 language: en
+naics: '541511'
 url: "http://www.cts-llc.net" # the base hostname & protocol for your site
 # Social Media
 twitter_username: capitaltech

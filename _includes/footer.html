@@ -44,9 +44,16 @@
         </ul>
       </div>
       <div class="six columns">
-        <ul class="no-marker" itemscope itemtype="http://schema.org/Organization">
+        <ul class="no-marker" itemscope itemtype="http://schema.org/ProfessionalService">
           <li>&copy; 2015-2016 <span itemprop="name">{{ site.title }}</span> All Rights Reserved</li>
-          <li><a href="mailto:{{ site.email }}"><span itemprop="email">{{ site.email }}</span></a></li>
+          <li class="hidden-xs">email: <a href="mailto:{{ site.email }}"><span itemprop="email">{{ site.email }}</span></a></li>
+          <li>phone: <a href="tel:{{ site.telephone }}"><span itemprop="telephone">{{ site.telephone }}</span></a></li>
+          <li class="hidden-xs">fax: <a href="tel:{{ site.faxNumber }}"><span itemprop="faxNumber">{{ site.faxNumber }}</span></a></li>
+          <meta itemprop="areaServed" content="Philadelphia, PA" />
+          <meta itemprop="areaServed" content="Nashville, TN" />
+          <meta itemprop="logo" content="{{ site.url }}/images/logo.png" />
+          <meta itemprop="naics" content="{{ site.naics }}" />
+          <meta itemprop="url" content="{{ site.url }}" />
         </ul>
       </div>
     </div>
