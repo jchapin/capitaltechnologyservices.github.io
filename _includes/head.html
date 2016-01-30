@@ -16,6 +16,8 @@
   <meta name="twitter:title" content="{% if page.title_short %}{{ page.title_short }} | {{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="twitter:image" content="{{ site.url }}/images/logo.png" />
+  <!-- Google+ Publisher -->
+  <link href="https://plus.google.com/106568781905361232916" rel="publisher" />
   <!-- Links -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
