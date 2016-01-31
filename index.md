@@ -11,12 +11,23 @@ redirect_from:
 
 Web-based applications and services are the backbone of Internet companies.
 Nearly all mobile, desktop, and wearable applications send to or consume data
-from software residing on the Internet. That's why you can't risk working with
-vendors who treat the the most critical components of your project as an
-afterthought. The team at Capital Technology Services doesn't chase trends, we
-build well engineered and tested back ends.
+from software residing on the Internet. That is why we have chosen to make web
+development our core service. Web apps are the linchpin of modern businesses.
 
-<h4>
+Working with us means that the most critical components of your online presence
+won't be treated as an afterthought. We don't adopt a technology until we are
+confident that it is the right tool for the job. We don't pursue a line of
+business or a project when we are not certain in our ability to bring value to
+our clients. When a skill outside of our area of expertise is needed, we partner
+with organizations that specialize in mobile development, marketing, and consult
+in a variety of vertical and horizontal markets.
+
+We want your product to be well engineered, well tested, and well monitored.
+
+<h4 itemscope itemtype="http://schema.org/Service">
+  <meta itemprop="serviceType" content="PHP Development" />
+  <meta itemprop="serviceType" content="Ruby Development" />
+  <meta itemprop="serviceType" content="Ruby on Rails Development" />
   We work in Ruby and PHP, but have developed software projects that connect to
   many other computing platforms. We've worked with everything from mainframes
   to mobile.
@@ -29,8 +40,8 @@ Our consultants have worked with small businesses, startups, health care
 organizations, local, state, and federal government agencies. The
 stakeholders we have worked with have unique requirements and concerns, but our
 process and philosophy remains the same no matter the project. We iteratively
-build, test, and improve our client's projects bringing data to bear whenever
-possible in making decisions.
+build, test, and improve our client's projects using data and research to make
+decisions whenever possible.
 
 <h4>
   All of our clients benefit from our processes which are designed to lower risk
@@ -68,3 +79,12 @@ redundancy of the project.
   </div>
   <div class="two columns">&nbsp;</div>
 </div>
+
+Consultants in Nashville, TN and Philadelphia, PA
+-------------------------------------------------
+
+Nashville is our home town and Philadelphia is our newest outpost. Our lead
+consultant is based in Philadelphia. Nashville is where the majority of our
+Ruby on Rails developers are based, along with account and project management
+staff. We love our cities and their traditions, particularly hot chicken and
+roast pork sandwiches.
