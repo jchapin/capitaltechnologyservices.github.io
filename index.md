@@ -11,10 +11,18 @@ redirect_from:
 
 Web-based applications and services are the backbone of Internet companies.
 Nearly all mobile, desktop, and wearable applications send to or consume data
-from software residing on the Internet. That's why you can't risk working with
-vendors who treat the the most critical components of your project as an
-afterthought. The team at Capital Technology Services doesn't chase trends, we
-build well engineered and tested back ends.
+from software residing on the Internet. That is why we have chosen to make web
+development our core service. Web apps are the linchpin of modern businesses.
+
+Working with us means that the most critical components of your online presence
+won't be treated as an afterthought. We don't adopt a technology until we are
+confident that it is the right tool for the job. We don't pursue a line of
+business or a project when we are not certain in our ability to bring value to
+our clients. When a skill outside of our area of expertise is needed, we partner
+with organizations that specialize in mobile development, marketing, and consult
+in a variety of vertical and horizontal markets.
+
+We want your product to be well engineered, well tested, and well monitored.
 
 <h4>
   We work in Ruby and PHP, but have developed software projects that connect to
