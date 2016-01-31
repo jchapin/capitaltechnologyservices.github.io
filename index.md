@@ -40,8 +40,8 @@ Our consultants have worked with small businesses, startups, health care
 organizations, local, state, and federal government agencies. The
 stakeholders we have worked with have unique requirements and concerns, but our
 process and philosophy remains the same no matter the project. We iteratively
-build, test, and improve our client's projects bringing data to bear whenever
-possible in making decisions.
+build, test, and improve our client's projects using data and research to make
+decisions whenever possible.
 
 <h4>
   All of our clients benefit from our processes which are designed to lower risk
@@ -79,3 +79,12 @@ redundancy of the project.
   </div>
   <div class="two columns">&nbsp;</div>
 </div>
+
+Consultants in Nashville, TN and Philadelphia, PA
+-------------------------------------------------
+
+Nashville is our home town and Philadelphia is our newest outpost. Our lead
+consultant is based in Philadelphia. Nashville is where the majority of our
+Ruby on Rails developers are based, along with account and project management
+staff. We love our cities and their traditions, particularly hot chicken and
+roast pork sandwiches.
