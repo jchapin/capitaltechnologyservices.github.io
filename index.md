@@ -24,7 +24,10 @@ in a variety of vertical and horizontal markets.
 
 We want your product to be well engineered, well tested, and well monitored.
 
-<h4>
+<h4 itemscope itemtype="http://schema.org/Service">
+  <meta itemprop="serviceType" content="PHP Development" />
+  <meta itemprop="serviceType" content="Ruby Development" />
+  <meta itemprop="serviceType" content="Ruby on Rails Development" />
   We work in Ruby and PHP, but have developed software projects that connect to
   many other computing platforms. We've worked with everything from mainframes
   to mobile.
