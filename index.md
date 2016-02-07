@@ -3,6 +3,7 @@ layout: page
 permalink: /
 title: 'Our Focus: Web Application Development'
 title_short: 'Web App Development'
+excerpt: 'At Capital Technology Services, our focus is web application development. The company has staff based in Philadelphia, PA and Nashville, TN.'
 redirect_from:
   - /philadelphia/
   - /philly/
@@ -28,6 +29,8 @@ We want your product to be well engineered, well tested, and well monitored.
   <meta itemprop="serviceType" content="PHP Development" />
   <meta itemprop="serviceType" content="Ruby Development" />
   <meta itemprop="serviceType" content="Ruby on Rails Development" />
+  <meta itemprop="serviceType" content="Web Development" />
+  <meta itemprop="serviceType" content="Web Application Development" />
   We work in Ruby and PHP, but have developed software projects that connect to
   many other computing platforms. We've worked with everything from mainframes
   to mobile.
@@ -88,3 +91,10 @@ consultant is based in Philadelphia. Nashville is where the majority of our
 Ruby on Rails developers are based, along with account and project management
 staff. We love our cities and their traditions, particularly hot chicken and
 roast pork sandwiches.
+
+Contact us and we will find time to meet with you in person to discuss your
+project. We don't charge for an initial consultation to determine the scope of
+your project and if we can help you. If you do want to engage our services we
+typically offer time and materials and fixed periodic budget agreements.
+All payment terms are net-30, cash, check, Visa, MasterCard, American Express,
+and other major credit cards.
