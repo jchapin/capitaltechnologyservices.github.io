@@ -91,3 +91,10 @@ consultant is based in Philadelphia. Nashville is where the majority of our
 Ruby on Rails developers are based, along with account and project management
 staff. We love our cities and their traditions, particularly hot chicken and
 roast pork sandwiches.
+
+Contact us and we will find time to meet with you in person to discuss your
+project. We don't charge for an initial consultation to determine the scope of
+your project and if we can help you. If you do want to engage our services we
+typically offer time and materials and fixed periodic budget agreements.
+All payment terms are net-30, cash, check, Visa, MasterCard, American Express,
+and other major credit cards.
