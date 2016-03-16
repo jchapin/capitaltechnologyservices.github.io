@@ -146,7 +146,7 @@ original specification.
 
 1.  Sign up for Github
     1. Send all Github username to your project management contact.
-1.  Sign up for a Hosting Accounts
+1.  Sign up for Hosting Accounts
     1. Heroku
     1. Amazon Web Services
     1. Google Developers Account
