@@ -68,3 +68,32 @@ directions that we provided to get them up and running.
 1.  Click "Launch Instances"
 1.  Review the documentation on the "Launch Status" page. We will summarize how
     to connect to the machine in the next steps as well.
+1.  Click "View Instances" and go to the listing of all of your EC2 instances.
+1.  Click the instance that you just setup and look for the public IP address
+    in the lower right hand side of the screen when the information on the
+    instance loads.
+1.  You're going to want to setup an SSH configuration file if you don't already
+    have one on your system. If you're on an OS X or a Linux system, use a text
+    editor to open ```~/.ssh/config```. It may not exist yet. In fact, the .ssh
+    directory may not exist yet, and if that's the case you can run
+    ```mkdir ~/.ssh``` and the directory will be created for you.
+1.  Copy the key file from Amazon into the ```~/.ssh``` directory.
+1.  In the ```~/.ssh/config``` file add the following information:
+
+        # Description of the Machine
+        Host           shortname
+        Hostname       IP ADDRESS FROM AMAZON
+        Port           22
+        IdentitiesOnly yes
+        IdentityFile   ~/.ssh/yourkey.pem
+        User           ubuntu
+
+1.  Test logging into the system by running ```ssh shortname``` that's a quick
+    way to log into the system. There will likely be a warning saying that the
+    authenticity of the host cannot be verified. It will present a fingerprint
+    and ask you if you would like to continue connecting. Type, "yes" and
+    continue connecting.
+    1.  You shouldn't get a warning like this in the future when connecting from
+        the same machine to this new instance unless the "known hosts" file has
+        been wiped out. So be mindful of receiving warnings like this in the
+        future.
