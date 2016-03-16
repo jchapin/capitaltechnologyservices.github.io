@@ -96,7 +96,7 @@ such a platform. We also have clients whose applications would be more
 economically hosted on other services / systems.
 
 1.  In order to make the setup of development services and infrastructure as
-    expedient and painless as possible we will setup an run development systems
+    expedient and painless as possible we will setup and run development systems
     billed at cost + a 10% markup.
 1.  In order to give clients full control of their hosting infrastructure and
     expenses, we encourage them to setup their own hosting services accounts.
