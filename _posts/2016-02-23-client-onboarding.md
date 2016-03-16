@@ -120,8 +120,8 @@ meeting. At a minimum we want a weekly opportunity to review with you:
 
 User acceptance testing should be performed by the client on each new feature,
 enhancement, or bug fix we perform. Doing so greatly reduces the risk involved
-in operating your project. We provide flags / labels for clients to approve or
-reject every pull request / issue that we have address on their behalf.
+in operating your project. In Github we provide flags / labels for clients to
+approve or reject every pull request / issue that we have addressed.
 
 Testing is an opportunity to review the work before deployment.
 
