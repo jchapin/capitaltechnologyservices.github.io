@@ -96,7 +96,7 @@ such a platform. We also have clients whose applications would be more
 economically hosted on other services / systems.
 
 1.  In order to make the setup of development services and infrastructure as
-    expedient and painless as possible we will setup an run development systems
+    expedient and painless as possible we will setup and run development systems
     billed at cost + a 10% markup.
 1.  In order to give clients full control of their hosting infrastructure and
     expenses, we encourage them to setup their own hosting services accounts.
@@ -120,8 +120,8 @@ meeting. At a minimum we want a weekly opportunity to review with you:
 
 User acceptance testing should be performed by the client on each new feature,
 enhancement, or bug fix we perform. Doing so greatly reduces the risk involved
-in operating your project. We provide flags / labels for clients to approve or
-reject every pull request / issue that we have address on their behalf.
+in operating your project. In Github we provide flags / labels for clients to
+approve or reject every pull request / issue that we have addressed.
 
 Testing is an opportunity to review the work before deployment.
 
@@ -146,7 +146,7 @@ original specification.
 
 1.  Sign up for Github
     1. Send all Github username to your project management contact.
-1.  Sign up for a Hosting Accounts
+1.  Sign up for Hosting Accounts
     1. Heroku
     1. Amazon Web Services
     1. Google Developers Account
