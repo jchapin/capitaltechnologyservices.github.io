@@ -72,6 +72,9 @@ directions that we provided to get them up and running.
 1.  Click the instance that you just setup and look for the public IP address
     in the lower right hand side of the screen when the information on the
     instance loads.
+
+## SSH Connectivity
+
 1.  You're going to want to setup an SSH configuration file if you don't already
     have one on your system. If you're on an OS X or a Linux system, use a text
     editor to open ```~/.ssh/config```. It may not exist yet. In fact, the .ssh
