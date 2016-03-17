@@ -157,7 +157,7 @@ Next you're going to want to configure NGINX to:
 Here are the steps:
 
 1.  Generate a stronger certificate for Diffie-Hellman key exchange:
-    
+
         cd /etc/ssl/certs
         sudo openssl dhparam -out dhparam.pem 4096
 
@@ -193,7 +193,7 @@ server {
   server_name               secure.cts-llc.net;
   access_log                off;
 }
-~~~    
+~~~
 
 This will at least get you up to an "A" rating at the moment on Qualys SSL Labs
 test <https://www.ssllabs.com/ssltest/> and protect from the recent well
