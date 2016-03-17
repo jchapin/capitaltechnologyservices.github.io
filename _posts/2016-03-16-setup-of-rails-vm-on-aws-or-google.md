@@ -164,7 +164,7 @@ Here are the steps:
 1.  Go to lunch, or otherwise take a break, generating that certificate is going
     to take a while.
 1.  Scrap the default NGINX config and use the configuration below, substituting
-    your certificate and kay files. It uses the cipher suggestions
+    your certificate and key files. It uses the cipher suggestions
     from <https://raymii.org/s/tutorials/Strong_SSL_Security_On_nginx.html> that
     come from the Mozilla Foundation. That will allow browsers that are at least
     more recent than IE6 to negotiate a connection securely.
