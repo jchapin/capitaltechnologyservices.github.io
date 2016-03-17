@@ -13,7 +13,7 @@ directions that we provided to get them up and running.
 ## Setting up the EC2 Instance
 
 1.  If you haven't already setup an account on Amazon Web Services go to
-    https://aws.amazon.com, register and connect a credit card to the account.
+    <https://aws.amazon.com>, register and connect a credit card to the account.
 1.  Once registered, make your way to the, "AWS Management Console" and choose
     "EC2 - Virtual Servers in the Cloud" which is in the upper left hand corner
     of the screen.
@@ -25,7 +25,7 @@ directions that we provided to get them up and running.
 1.  For the application we're working with, the minimum memory recommended is
     4GB, and 8GB is highly recommended. I would choose a, "t2.large" system.
     1.  Pricing information can be found here:
-        https://aws.amazon.com/ec2/pricing/
+        <https://aws.amazon.com/ec2/pricing/>
     1.  I would recommend converting the instance to a, "reserved" instance and
         prepaying for the service, it will reduce the bill for the services
         considerably (40-50%).
@@ -100,3 +100,103 @@ directions that we provided to get them up and running.
         the same machine to this new instance unless the "known hosts" file has
         been wiped out. So be mindful of receiving warnings like this in the
         future.
+
+## Initial Upgrade of the Environment
+
+Once you're logged in via SSH, update the system and install any upgrades
+that have been released:
+
+1.  ```sudo apt-get update```
+1.  ```sudo apt-get dist-upgrade```
+
+## NGINX and Passenger Installation
+
+1.  The installation directions for Passenger+NGINX are currently located here:
+    <https://www.phusionpassenger.com/library/install/nginx/install/oss/trusty/>
+    1.  ```sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7```
+    1.  ```sudo apt-get install -y apt-transport-https ca-certificates```
+    1.  ```sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger trusty main > /etc/apt/sources.list.d/passenger.list'```
+    1.  ```sudo apt-get update```
+    1.  ```sudo apt-get install -y nginx-extras passenger```
+1.  Once NGINX and all the requirements are installed, use a web browser to
+    visit http://IP.ADDRESS.FROM.AMAZON (Substitute the actual IP address
+    from Amazon)
+1.  Confirm that the web server is up and running.
+1.  Uncomment the following lines in ```/etc/nginx/nginx.conf```:
+
+        # passenger_root /some-filename/locations.ini;
+        # passenger_ruby /usr/bin/passenger_free_ruby;
+
+1.  Run ```sudo service nginx restart```
+1.  Run ```sudo /usr/bin/passenger-config validate-install```
+
+## Setup Encryption via Let's Encrypt
+
+You're most likely going to want to use a traditional encryption vendor for your
+SSL Certificate. However, for the purposes of testing the NGINX SSL
+configuration we will setup a certificate from Let's Encrypt (letsencrypt.org).
+
+1.  Digital Ocean has a comprehensive set of directions here:
+    <https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04>
+    1.  ```sudo apt-get -y install git bc```
+    1.  ```sudo git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt```
+    1.  Stop NGINX: ```sudo service nginx stop```
+    1.  ```cd /opt/letsencrypt```
+    1.  ```./letsencrypt-auto certonly --standalone```
+        NOTE: DNS will already have to be pointed to the hostname(s) that you
+        provide when walking through the ncurses dialogue windows.
+
+## SSL Configuration for NGINX
+
+Next you're going to want to configure NGINX to:
+
+1.  Forward users to an HTTPS connection automatically.
+1.  Offer the most secure connectivity to the server while sacrificing as little
+    compatibility with older browsers as possible.
+
+Here are the steps:
+
+1.  Generate a stronger certificate for Diffie-Hellman key exchange:
+    
+        cd /etc/ssl/certs
+        sudo openssl dhparam -out dhparam.pem 4096
+
+1.  Go to lunch, or otherwise take a break, generating that certificate is going
+    to take a while.
+1.  Scrap the default NGINX config and use the configuration below, substituting
+    your certificate and kay files. It uses the cipher suggestions
+    from <https://raymii.org/s/tutorials/Strong_SSL_Security_On_nginx.html> that
+    come from the Mozilla Foundation. That will allow browsers that are at least
+    more recent than IE6 to negotiate a connection securely.
+
+~~~
+server {
+  listen      80;
+  server_name secure.cts-llc.net;
+  return      301 https://$server_name$request_uri;
+}
+server {
+  listen                    443;
+  gzip                      on;
+  gzip_proxied              any;
+  gzip_types                text/css text/plain text/xml application/xml application/javascript application/x-javascript text/javascript application/json text/x-json;
+  gzip_vary                 on;
+  gzip_disable              "MSIE [1-6]\.";
+  ssl                       on;
+  ssl_certificate           /etc/letsencrypt/live/secure.cts-llc.net/fullchain.pem;
+  ssl_certificate_key       /etc/letsencrypt/live/secure.cts-llc.net/privkey.pem;
+  ssl_protocols             TLSv1 TLSv1.1 TLSv1.2;
+  ssl_prefer_server_ciphers on;
+  ssl_ciphers               "EECDH+AESGCM:EDH+AESGCM:ECDHE-RSA-AES128-GCM-SHA256:AES256+EECDH:DHE-RSA-AES128-GCM-SHA256:AES256+EDH:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4";
+  ssl_dhparam               /etc/ssl/certs/dhparam.pem;
+  ssl_session_cache         shared:SSL:10m;
+  server_name               secure.cts-llc.net;
+  access_log                off;
+}
+~~~    
+
+This will at least get you up to an "A" rating at the moment on Qualys SSL Labs
+test <https://www.ssllabs.com/ssltest/> and protect from the recent well
+documented exploits. You can push the grade higher if you are willing to ditch
+compatibility with some older browsers. Look at the results from the test and
+make your own determination.
