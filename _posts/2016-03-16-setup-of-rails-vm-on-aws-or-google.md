@@ -200,3 +200,14 @@ test <https://www.ssllabs.com/ssltest/> and protect from the recent well
 documented exploits. You can push the grade higher if you are willing to ditch
 compatibility with some older browsers. Look at the results from the test and
 make your own determination.
+
+## Passenger Configuration
+
+```
+gem install bundler
+sudo apt-get install qt5-default libqt5webkit5-dev gstreamer1.0-plugins-base gstreamer1.0-tools gstreamer1.0-x
+sudo apt-get install libgmp3-dev
+sudo apt-get install libpq-dev
+sudo apt-get install nodejs
+sudo apt-get install imagemagick
+```
