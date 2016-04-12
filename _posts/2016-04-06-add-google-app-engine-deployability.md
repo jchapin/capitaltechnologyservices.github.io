@@ -150,6 +150,10 @@ revisit this document, send us notes, and feel free to ask questions.
         the domain's ownership for other services and purposes, like Google
         Analytics.  
 1.  Installing an SSL Certificate
+    1.  Switch the format of the key file to PEM:
+        ```openssl rsa -in host.domain.com.key -out host.domain.com.key.pem```
+        The typical output format from OpenSSL isn't recognized by Google
+        Cloud Platform as a valid key.
     1.  It's should be possible to use the gcloud CLI to accomplish this task
         but I performed these steps through the web based interface, because SSL
         certificates added through the CLI were not showing up in the developer
@@ -160,8 +164,6 @@ revisit this document, send us notes, and feel free to ask questions.
         That means it has to start with a lowercase letter, feature lowercase
         letters or numbers up to a length of 62 characters and then end with a
         lowercase letter or number. That's a total length of 64 characters max.
-    1.  Switch the format of the key file to PEM:
-        ```openssl rsa -in host.domain.com.key -out host.domain.com.key.pem```
 1.  Deploy the application: ```gcloud preview app deploy```
     1.  After this step, you should be able to visit the app at:
         http://projectname-1234.appspot.com
