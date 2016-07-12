@@ -24,9 +24,9 @@ system’) that are provided, maintained and supported by the supplier. Some of
 these items are of critical importance to the business.
 
 This service level agreement sets out what levels of availability and support
-the client is guaranteed to receive for specific parts of the IT system. It
-also explains what penalties will be applied to the supplier should it fail to
-meet these levels.
+the client is guaranteed to receive for specific parts of the IT system. It also
+explains what penalties will be applied to the supplier should it fail to meet
+these levels.
 
 This SLA forms an important part of the contract between the client and the
 supplier. It aims to enable the two parties to work together effectively.
@@ -39,10 +39,10 @@ This SLA is between:
 
 ###Dates and reviews
 
-This agreement begins on [date] and will run for a period of [number] months.
+This agreement begins on _______________ and will run for a period of 12 months.
 
-It may be reviewed at any point, by mutual agreement. It may also be reviewed
-if there are any changes to the client’s IT system.
+It may be reviewed at any point, by mutual agreement. It may also be reviewed if
+there are any changes to the client’s IT system.
 
 ###Equipment, software and services covered
 
@@ -65,11 +65,11 @@ response time.
 contained in a separate database or document. Often, the supplier will include
 extra details, like hardware serial numbers or software licence keys.]
 
-| Service | Number of Items | Priority | Covered for Uptime |
-|:-------:| --------------- | -------- | ------------------ |
-|         |                 |          |                    |
-|         |                 |          |                    |
-|         |                 |          |                    |
+| Service | Hostname, IP Address, or Serial Number | Priority | Covered for Uptime |
+|:-------:| -------------------------------------- | -------- | ------------------ |
+|         |                                        |          |                    |
+|         |                                        |          |                    |
+|         |                                        |          |                    |
 
 ###Exclusions
 
@@ -78,35 +78,33 @@ everything possible to rectify every issue in a timely manner.
 
 However, there are a few exclusions. This SLA does not apply to:
 
-Any equipment, software, services or other parts of the IT system not listed
-above
-Software, equipment or services not purchased via and managed by the supplier
+*   Any equipment, software, services or other parts of the IT system not listed
+    above
+*   Software, equipment or services not purchased via and managed by the
+    supplier
 
 Additionally, this SLA does not apply when:
 
-The problem has been caused by using equipment, software or service(s) in a way
-that is not recommended. 
-
-The client has made unauthorised changes to the configuration or set up of
-affected equipment, software or services.
-
-The client has prevented the supplier from performing required maintenance and
-update tasks. 
-
-The issue has been caused by unsupported equipment, software or other services.
-
-This SLA does not apply in circumstances that could be reasonably said to be
-beyond the supplier’s control. For instance: floods, war, acts of god and so on.
-
-This SLA also does not apply if the client is in breach of its contract with the
-supplier for any reason (e.g. late payment of fees).
+*   The problem has been caused by using equipment, software or service(s) in a
+    way that is not recommended. 
+*   The client has made unauthorised changes to the configuration or set up of
+    affected equipment, software or services.
+*   The client has prevented the supplier from performing required maintenance
+    and update tasks. 
+*   The issue has been caused by unsupported equipment, software or other
+    services.
+*   This SLA does not apply in circumstances that could be reasonably said to be
+    beyond the supplier’s control. For instance: floods, war, acts of god and so
+    on.
+*   This SLA also does not apply if the client is in breach of its contract with
+    the supplier for any reason (e.g. late payment of fees).
 
 Having said all that, [supplier] aims to be helpful and accommodating at all
 times, and will do its absolute best to assist [client] wherever possible.
 
-##Responsibilities
+## Responsibilities
 
-###Supplier responsibilities
+### Supplier responsibilities
 
 The supplier will provide and maintain the IT system used by the client.
 
@@ -124,7 +122,7 @@ Take steps to escalate and resolve issues in an appropriate, timely manner.
 
 Maintain good communication with the client at all times.
 
-###Client responsibilities
+### Client responsibilities
 
 The client will use the supplier-provided IT system as intended.
 
@@ -140,9 +138,9 @@ purposes of maintenance, updates and fault prevention.
 
 Maintain good communication with the supplier at all times.
 
-##Guaranteed uptime
+## Guaranteed uptime
 
-###Uptime levels
+### Uptime levels
 
 In order to enable the client to do business effectively, the supplier
 guarantees that certain items will be available for a certain percentage of
