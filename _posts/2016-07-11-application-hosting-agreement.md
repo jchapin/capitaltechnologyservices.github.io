@@ -1,19 +1,15 @@
 ---
 layout: post
-title: 'Sample Application Hosting Agreement'
-title_short: 'Sample Application Hosting Agreement'
-excerpt: 'We encourage our clients to  '
+title: 'Application Hosting Agreement'
+title_short: 'Application Hosting Agreement'
+excerpt: "Clients don't have to host their applications with us, but there are times when it makes sense for us to care for the infrastructure. Here's our starter agreement for your review."
 contract_effective_date: 'July 11th, 2016'
 contract_developer_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
-contract_developer_address: '1323 6th Ave N Nashville, TN 37208-2603'
-contract_developer_jurisdiction: 'Tennessee'
-contract_developer_entity: 'Limited Liability Company'
-contract_customer_name: 'YOUR ORGANIZATION'
-contract_customer_address: '123 Sample Ave. Nashville, TN 37212'
-contract_customer_jurisdiction: 'STATE OF XXXXX'
-contract_customer_entity: 'ENTITY TYPE'
-contract_definition_of_software: "YOUR ORGANIZATION's Ruby on Rails based web application"
+contract_customer_name: 'Vanderbilt University Medical Center'
+contract_customer_jurisdiction: 'STATE OF TENNESSEE'
 ---
+
+{{ page.excerpt }}
 
 # Application Hosting Agreement
 
@@ -116,11 +112,13 @@ copyrighted material used in connection with this service.
 ## TERMINATION
 
 Company may terminate this Agreement at its sole discretion upon the occurrence
-of one or more of the following events: 1) failure to comply with any provisions
-of the Agreement upon receipt of written notice from Company of said failure, 2)
-appointment of Receiver or upon the filing of any application by Client seeking
-relief from creditors, 3) upon mutual agreement in writing of Company and
-Client.
+of one or more of the following events:
+
+1.  failure to comply with any provisions of the Agreement upon receipt of
+    written notice from Company of said failure,
+1.  appointment of Receiver or upon the filing of any application by Client
+    seeking relief from creditors,
+1.  upon mutual agreement in writing of Company and Client.
 
 ## DISPUTES
 
@@ -144,7 +142,7 @@ breach of this Agreement by Client.
 If any provision of this Agreement is held to be unenforceable, the
 enforceability of the remaining provisions shall in no way be affected or
 impaired thereby. This Agreement shall be governed by and construed in
-accordance with the laws of the State of {{ page.contract_developer_jurisdiction}}.
+accordance with the laws of the {{ page.contract_customer_jurisdiction }}.
 A failure by any party to exercise or delay in exercising a right or power
 conferred upon it in this Agreement shall not operate as a waiver of any such
 right or power.
