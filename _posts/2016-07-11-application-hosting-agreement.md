@@ -5,7 +5,7 @@ title_short: 'Application Hosting Agreement'
 excerpt: "Clients don't have to host their applications with us, but there are times when it makes sense for us to care for the infrastructure. Here's our starter agreement for your review."
 contract_effective_date: 'July 11th, 2016'
 contract_developer_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
-contract_customer_name: 'Vanderbilt University Medical Center'
+contract_customer_name: 'YOUR ORGANIZATION'
 contract_customer_jurisdiction: 'STATE OF TENNESSEE'
 ---
 

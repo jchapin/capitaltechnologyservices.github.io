@@ -5,7 +5,7 @@ title_short: 'Service Level Agreement'
 excerpt: "This document is usually paired with our application hosting agreement and describes our commitments to support your application when we're hosting the software."
 contract_effective_date: 'July 11th, 2016'
 contract_developer_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
-contract_customer_name: 'Vanderbilt University Medical Center'
+contract_customer_name: 'YOUR ORGANIZATION'
 contract_customer_jurisdiction: 'STATE OF TENNESSEE'
 ---
 
