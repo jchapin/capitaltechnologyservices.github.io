@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Example Contract'
-title_short: 'Example Contract'
+title: 'Software Development Agreement'
+title_short: 'Software Development Agreement'
 excerpt: "The first time you see a vendor's contract shouldn't be when you sit down to sign it. That's why we're posting a sample agreement on the site for your review."
 contract_effective_date: 'March 9th, 2016'
 contract_developer_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
@@ -303,3 +303,5 @@ Name :
 Title :
 
 Date :
+
+* Both parts must sign above and keep a copy for their own records.

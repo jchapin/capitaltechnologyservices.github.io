@@ -59,7 +59,7 @@ Company.
 
 Please note:
 
-The Company guarantees response times for all items listed in this section. 
+The Company guarantees response times for all items listed in this section.
 
 The Company guarantees uptime only for items with a tick in the Covered for
 uptime? column.
@@ -93,11 +93,11 @@ However, there are a few exclusions. This SLA does not apply to:
 Additionally, this SLA does not apply when:
 
 *   The problem has been caused by using equipment, software or service(s) in a
-    way that is not recommended. 
+    way that is not recommended.
 *   The Client has made unauthorised changes to the configuration or set up of
     affected equipment, software or services.
 *   The Client has prevented the Company from performing required maintenance
-    and update tasks. 
+    and update tasks.
 *   The issue has been caused by unsupported equipment, software or other
     services.
 *   This SLA does not apply in circumstances that could be reasonably said to be
@@ -264,7 +264,7 @@ Important notes:
 
 Response time penalties in any month are capped at 50% of the total monthly fee
 
-Response times are measured during working hours (9am — 5.30pm). 
+Response times are measured during working hours (9am — 5.30pm).
 
 For instance, if an issue is reported at 5.00pm with a response time of 60
 minutes, the Company has until 9.30am the following day to respond.
@@ -276,7 +276,7 @@ It recognises that the Client’s computer systems are key to its business and
 that any downtime can cost money.
 
 However, the Company is unable to provide guaranteed resolution times. This is
-because the nature and causes of problems can vary enormously. 
+because the nature and causes of problems can vary enormously.
 
 For instance, it may be possible to resolve a fatal server issue in minutes,
 simply by restarting the server. But if a server fails due to disk error or a
