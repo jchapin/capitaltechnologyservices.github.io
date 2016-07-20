@@ -109,13 +109,22 @@ that have been released:
 1.  ```sudo apt-get update```
 1.  ```sudo apt-get dist-upgrade```
 
+## Some Help
+
+If 
+
 ## NGINX and Passenger Installation
 
 1.  The installation directions for Passenger+NGINX are currently located here:
     <https://www.phusionpassenger.com/library/install/nginx/install/oss/trusty/>
     1.  ```sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7```
     1.  ```sudo apt-get install -y apt-transport-https ca-certificates```
-    1.  ```sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger trusty main > /etc/apt/sources.list.d/passenger.list'```
+    1.  ```sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger xenial main > /etc/apt/sources.list.d/passenger.list'```
+
+        Note that if you're installing on Ubuntu 14.04 "xenial" in the above
+        line will change to "trusty". Similarly, when the next LTS release of
+        Ubuntu comes out, that particular part of the line will change.
+
     1.  ```sudo apt-get update```
     1.  ```sudo apt-get install -y nginx-extras passenger```
 1.  Once NGINX and all the requirements are installed, use a web browser to
@@ -124,8 +133,13 @@ that have been released:
 1.  Confirm that the web server is up and running.
 1.  Uncomment the following lines in ```/etc/nginx/nginx.conf```:
 
-        # passenger_root /some-filename/locations.ini;
-        # passenger_ruby /usr/bin/passenger_free_ruby;
+        # include /etc/nginx/passenger.conf;
+
+    This above configuration file contains two lines that used to be in the main
+    nginx.conf file.
+
+        passenger_root /usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini;
+        passenger_ruby /usr/bin/passenger_free_ruby;
 
 1.  Run ```sudo service nginx restart```
 1.  Run ```sudo /usr/bin/passenger-config validate-install```
