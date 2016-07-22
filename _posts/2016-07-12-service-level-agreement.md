@@ -323,4 +323,4 @@ Title :
 
 Date :
 
-* Both parts must sign above and keep a copy for their own records.
+* Both parties must sign above and keep a copy for their own records.
