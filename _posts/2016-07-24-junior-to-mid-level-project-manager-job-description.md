@@ -2,7 +2,11 @@
 layout: post
 title: 'Job Description: Junior to Mid-level Project Manager'
 title_short: 'Job Description: Junior to Mid-level Project Manager'
-excerpt: ""
+excerpt: >
+  Project managers are responsible for gathering and organizing information on
+  the scope, budget, and timeline of software development projects. As of July
+  24th, 2016 we have an opening for a junior to mid-level project manager in
+  Philadelphia, PA.
 ---
 
 {{ page.excerpt }}
@@ -53,4 +57,4 @@ Software Development
 *   Center City Philadelphia, PA
 *   Flexible hours with some neccessary meetings between 9am and 5pm Eastern
 *   Independent contractors, contract-to-hire is a possibility
-*   Compensation is hourly and based on level of experience
+*   Compensation is hourly and based on experience

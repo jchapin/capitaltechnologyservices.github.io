@@ -2,7 +2,12 @@
 layout: post
 title: 'Business Associate Agreement'
 title_short: 'Business Associate Agreement'
-excerpt: ""
+excerpt: >
+  Working for healthcare organizations and startups may involve the possibility
+  of reviewing protected health information (PHI). We take the utmost care in
+  handling this information and limiting our own access to PHI. When neccessary,
+  the following Business Associate Agreement defines how we will handle
+  sensitive health information.
 contract_effective_date: 'July 22nd, 2016'
 contract_termination_date: 'July 22nd, 2017'
 contract_developer_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
