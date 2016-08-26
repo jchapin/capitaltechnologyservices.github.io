@@ -20,7 +20,7 @@ There are four types of documentation that we need to be concerned with:
     features the ability for third party developers to integrate our product
     into their products. This is produced in addition to product documentation
     written in the source code of the product.
-1.  Product Documentation - Documentation integrated into the source code of
+1.  Source Documentation - Documentation integrated into the source code of
     the product.
 
 ## User Manual Standards
@@ -29,14 +29,28 @@ There are four types of documentation that we need to be concerned with:
 
 ## API / Developer Manual Standards
 
-*   Description
+*   Description: There should always be a short statement describing the purpose
+    of the web service.
 *   Request
-    *   Authentication
-    *   Headers & Parameters
-    *   Example Request
+    *   Authentication: If the web service requires a form of authentication
+        indicate that in the documentation so that consumers of the API know
+        that their program may need an account/key/credential to consume the
+        service.
+    *   Headers & Parameters: Document the required and optional HTTP headers
+        and parameters. Document whether the headers and parameters are in fact
+        optional or not.
+    *   Example Request: Include as many use cases as possible in example
+        requests. If the service is a POST, PUT, or a request with a message
+        associated, make sure to include an example of what that message looks
+        like.
 *   Response
-    *   Returned Attributes
-    *   Example Response
+    *   Returned Attributes: Include all of the possible attributes one might
+        receive and their data type. Make sure to list whether the data is
+        always returned or is optionally returned.
+    *   Example Response: Include as many possible response cases as possible.
+
+Here's a markdown template to be used when writing API documentation for RESTful
+XML and JSON web services:
 
 <pre><code>
 ## Description
@@ -97,3 +111,4 @@ Authentication is not required for this service.
 </code></pre>
 
 ## Product Documentation Standards
+

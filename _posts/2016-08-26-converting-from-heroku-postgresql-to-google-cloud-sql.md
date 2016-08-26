@@ -58,5 +58,5 @@ product. That means switching to MySQL. Here's how to do it:
     all of the tables necessary, but they will of course be empty.
 1.  I used MySQLWorkbench to connect to the Google Cloud SQL instance and run
     import.sql. You could just as easily use the command line client to import
-    the data
-
+    the data.
+    ```mysql -h IP.ADD.OF.SQL -u USERNAME -p database_name < import.sql```
