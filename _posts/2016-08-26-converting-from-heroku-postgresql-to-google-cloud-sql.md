@@ -56,7 +56,12 @@ product. That means switching to MySQL. Here's how to do it:
     connection under your production configuration.
 1.  ```rake db:migrate RAILS_ENV=production``` This is going to setup your
     all of the tables necessary, but they will of course be empty.
-1.  I used MySQLWorkbench to connect to the Google Cloud SQL instance and run
-    import.sql. You could just as easily use the command line client to import
-    the data.
-    ```mysql -h IP.ADD.OF.SQL -u USERNAME -p database_name < import.sql```
+1.  IF your import is small:
+    1.  I used MySQLWorkbench to connect to the Google Cloud SQL instance and
+        run import.sql.
+    1.  You could just as easily use the command line client to import the data.
+        ```mysql -h IP.ADD.OF.SQL -u USERNAME -p database_name < import.sql```
+1.  IF your import is large:
+    1.  Upload your import.sql file to a Cloud Storage Container
+    1.  Go to your database in Google Cloud SQL and import the file by finding
+        it in the cloud storage container.
