@@ -50,6 +50,9 @@ product. That means switching to MySQL. Here's how to do it:
     This is tedious if you have a large collection of tables, but can be made
     easier by using a regular expression to hunt out and replace lines beginning
     with ```^SELECT```.
+1.  Remove the ```schema_migrations``` table you're going to migrate the
+    database to its current schema version using the typical rake task. So you
+    do not have to insert these records in the import file.
 1.  Add the "mysql2" gem to your Gemfile.
 1.  ```bundle install```
 1.  Open your config/database.yml file and add the details of the new MySQL
