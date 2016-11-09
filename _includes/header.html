@@ -3,14 +3,23 @@
     <div class="row">
       <div class="six columns">
         <a href="{{ site.baseurl }}/" title="{{ site.title }}"><img alt="Capital Technology Services" id="site-logo" src="/images/logo.png"></a>
+        <a class="visible-xs" id="nav-toggle" href="#" onclick="javascript:$('#navbar-column').toggle();">&#9776;</a>
       </div>
-      <div class="six columns">
+      <div class="six columns hidden-xs" id="navbar-column">
         <nav class="navbar" id="navbar">
           <ul class="navbar-list u-pull-right">
-            <li class="navbar-item"><a class="navbar-link" href="/work">Work</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/posts">Posts</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/tools">Tools</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/contact">Contact</a></li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="/work">Work</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="/posts">Posts</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="/tools">Tools</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="/contact">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
