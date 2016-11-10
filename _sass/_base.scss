@@ -98,6 +98,14 @@ a {
   display : block;
   height  : 250px;
 }
+#nav-toggle {
+  float       : right;
+  font-size   : 3em;
+  line-height : 1.5;
+}
+#nav-toggle:hover {
+  text-decoration : none;
+}
 #page-footer {
   background-color : $accent-lighter;
   border-top       : 1px solid $accent-light;
