@@ -42,6 +42,8 @@ Philadelphia
   <div class="four columns"><img class="framed u-max-full-width" src="/images/citycoho.png"></div>
 </div>
 
+<hr>
+
 Nashville
 ---------
 
@@ -52,4 +54,18 @@ Nashville
   </div>
   <div class="four columns"><img class="framed u-max-full-width" src="/images/nashville.png"></div>
   <div class="four columns"><img class="framed u-max-full-width" src="/images/theskillery.png"></div>
+</div>
+
+<hr>
+
+Request an Appointment
+---------
+
+<div class="row">
+  <div class="twelve columns">
+    <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/johncchapin" style="min-width:295px;height:580px;"></div>
+    <script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
+    <!-- Calendly inline widget end -->
+  </div>
 </div>
