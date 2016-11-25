@@ -25,6 +25,23 @@ in a variety of vertical and horizontal markets.
 
 We want your product to be well engineered, well tested, and well monitored.
 
+<h2 class="text-center">Request More Information</h2>
+
+<div class="row">
+  <div class="two columns">&nbsp;</div>
+  <div class="eight columns">
+    <div class="sendgrid-subscription-widget" data-token="qmvriyXu89fpr5BIfBE6JFO4SotD7JmxbTchCw51dDP0%2Bv5hMrMACWXA0MOFRAVB"></div>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://s3.amazonaws.com/subscription-cdn/0.2/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "sendgrid-subscription-widget-js");</script>
+    <noscript>
+      <p>
+        Call or e-mail us via the information on our
+        <a href="/contact">contact page</a>.
+      </p>
+    </noscript>
+  </div>
+  <div class="two columns">&nbsp;</div>
+</div>
+
 <h4 itemscope itemtype="http://schema.org/Service">
   <meta itemprop="serviceType" content="PHP Development" />
   <meta itemprop="serviceType" content="Ruby Development" />
@@ -65,23 +82,6 @@ redundancy of the project.
   income in short order. Your bottom line is the most important metric when it
   comes to measuring our success.
 </h4>
-
-<h2 class="text-center">Request More Information</h2>
-
-<div class="row">
-  <div class="two columns">&nbsp;</div>
-  <div class="eight columns">
-    <div class="sendgrid-subscription-widget" data-token="qmvriyXu89fpr5BIfBE6JFO4SotD7JmxbTchCw51dDP0%2Bv5hMrMACWXA0MOFRAVB"></div>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://s3.amazonaws.com/subscription-cdn/0.2/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "sendgrid-subscription-widget-js");</script>
-    <noscript>
-      <p>
-        Call or e-mail us via the information on our
-        <a href="/contact">contact page</a>.
-      </p>
-    </noscript>
-  </div>
-  <div class="two columns">&nbsp;</div>
-</div>
 
 Consultants in Nashville, TN and Philadelphia, PA
 -------------------------------------------------
