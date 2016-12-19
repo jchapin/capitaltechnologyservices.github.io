@@ -9,9 +9,10 @@ language: en
 naics: '541511'
 url: "http://www.cts-llc.net" # the base hostname & protocol for your site
 # Social Media
-twitter_username: capitaltech
+facebook_company_name: capitaltechnologyservices
 github_username: capitaltechnologyservices
-linkedin_company_name:
+linkedin_company_name: 334808
+twitter_username: capitaltech
 # Build settings
 markdown: kramdown
 sass:
