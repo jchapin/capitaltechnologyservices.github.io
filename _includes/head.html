@@ -5,7 +5,7 @@
   <title>{% if page.title_short %}{{ page.title_short }} | {{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <!-- Content Security Policy -->
-  <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' http://connect.facebook.net http://platform.twitter.com http://www.google-analytics.com http://s3.amazonaws.com http://cdnjs.cloudflare.com https://calendly.com; style-src 'self' 'unsafe-inline' http://s3.amazonaws.com;">
+  <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' connect.facebook.net platform.twitter.com www.google-analytics.com s3.amazonaws.com cdnjs.cloudflare.com calendly.com; style-src 'self' 'unsafe-inline' s3.amazonaws.com;">
   <!-- OpenGraph -->
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:type" content="website" />
