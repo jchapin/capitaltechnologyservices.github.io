@@ -44,3 +44,8 @@
 /* Larger than tablet */
 @media (min-width: 750px) {
 }
+
+/* Print Specific */
+@media print {
+  .hidden-print { display : none; }
+}
