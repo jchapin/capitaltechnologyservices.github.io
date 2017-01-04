@@ -1,10 +1,25 @@
 ---
 layout: default
 ---
-<div class="post">
+<div itemscope itemtype="http://schema.org/BlogPosting" itemprop="mainEntity" class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <h1 itemprop="headline" class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date: '%F' }}" itemprop="datePublished">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+      <meta itemprop="dateModified" content="{{ page.date | date: '%F' }}"/>
+      {% if page.author %}
+        •
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ page.author }}</span>
+        </span>
+      {% endif %}
+      <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="{{ site.title }}">
+      </span>
+      {% if page.meta %} • {{ page.meta }}{% endif %}
+    </p>
   </header>
   <article class="post-content">
     {{ content }}
