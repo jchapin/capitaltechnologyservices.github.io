@@ -1,0 +1,97 @@
+---
+layout: post
+title: "2017 Resolutions - 3. Adopt Two-Factor Authentication"
+title_short: "Adopt Two-Factor Authentication"
+author: "Chapin, John C."
+excerpt: >
+  two-factor authentication, authenticating via something you know and something
+  you have (or are), is a crucial strategy for securing your accounts,
+  applications, and ultimately your personal data.
+---
+
+{{ page.excerpt }}
+
+## 2016 was a landmark year in cybersecurity...
+
+...for all the wrong reasons. The fallout related to poor information security
+habits is still in the national news even after the end of the election cycle.
+But don't make the mistake of thinking that you couldn't possibly become the
+target of online criminal activity. You don't have to be a high-profile
+politician, celebrity, or even do anything particularly remarkable to have
+your personal information stolen. That's because criminal activity can now be
+perpetrated on the scale and with the same ease as you reach thousands of
+followers on social media networks.
+
+That's why you should take the time right now to proactively put your account
+security back in your hands, and adopt two-factor authentication (2FA).
+
+## You've already used two-factor authentication
+
+Whenever you go to an ATM, you have to provide your PIN after inserting a card
+into the machine. The card is something your have. The PIN is something that you
+know. Using an ATM involves a form of two-factor authentication. It's not hard,
+and you know that it provides a measure of safety.
+
+On the other hand, in order to get into your e-mail, file servers, and
+applications with critical business information you're probably only using
+something you know, a password. Some of you are using the same password for
+multiple accounts. Even worse, some of you have an Excel document on your
+system where you store all of the passwords and PIN information that cannot
+share the same common password you like to use everywhere else.
+
+## The risks are all around you
+
+In the last year, we have seen plenty of bad passwords, stored insecurely, and
+shared indiscriminately. What you don't see are the poor storage of credentials
+on behalf of the website you just signed up for, the lack of encryption on your
+company's blog, and the malware that is feeding information from your
+accountant's computer to someone neither you nor your accountant knows is
+looking at your data.
+
+Adopting two-factor authentication doesn't mitigate all of these risks. But it's
+a step in the right direction. Inputting a six-digit code when you access a
+critical account takes a few extra seconds and means that someone a world away
+is less likely to be able to login to the account.
+
+## Who supports 2FA?
+
+Check
+<a href="https://twofactorauth.org" target="_blank">https://twofactorauth.org</a>
+they have a fairly extensive list of businesses whose technology offerings
+support two-factor authentication. They also help you notify institutions that
+you're looking for them to adopt 2FA by providing links to Twitter and Facebook.
+
+If your favorite bank, e-commerce site, or local government isn't on the list
+still make sure to dig through your account settings and look for 2FA account
+configuration options. Sometimes the option is present but not easy to find.
+
+## Opt for hardware tokens and apps instead of SMS
+
+In recently released documents from the National Institute of Standards and
+Technology (NIST) they've made clear that SMS and voice call based 2FA are
+possibly subject to interception.
+
+    Due to the risk that SMS messages or voice calls may be intercepted or
+    redirected, implementers of new systems SHOULD carefully consider
+    alternative authenticators. If the out-of-band verification is to be made
+    using the public switched telephone network (PSTN), the verifier SHALL
+    verify that the pre-registered telephone number being used is not associated
+    with a VoIP (or other software-based) service. It then sends the SMS or
+    voice message to the pre-registered telephone number. Changing the
+    pre-registered telephone number SHALL NOT be possible without two-factor
+    authentication at the time of the change.
+
+Instead of using SMS, if your provider allows you to use a program like
+Google Authenticator or Authy, use those programs instead. If you're really
+zealous about keeping your authentication codes secret, here are links to the
+RFC documents describing [TOTP](https://tools.ietf.org/html/rfc6238) and
+[HOTP](https://tools.ietf.org/html/rfc4226) algorithms:
+
+## Wait, what about my company's software!
+
+Of course, if you're a company with a custom web application we can help you and
+your clients to further secure account authentication by adding in 2FA. It's
+easier than you think and can be applied selectively so that users who are
+concerned with security can adopt 2FA at their own pace.
+
+<a href="mailto:sales@cts-llc.net?subject=I need two-factor authentication">Contact us to about enabling two-factor authentication in your software.</a>
