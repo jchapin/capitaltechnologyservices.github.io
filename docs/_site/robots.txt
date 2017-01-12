@@ -1,3 +1,0 @@
-Sitemap: http://www.cts-llc.net/sitemap.xml
-User-agent: *
-Allow: /
