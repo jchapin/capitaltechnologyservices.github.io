@@ -8,10 +8,11 @@
   <a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
   {% include google_analytics.html %}
   <script>
-    ga('send', {
-      hitType: 'event', eventCategory: 'redirect',
-      eventAction: 'entry', eventLabel: '{{ page.redirect.from }}'
+    ga('send', 'event', {
+      eventCategory: 'redirect', eventAction: 'entry',
+      eventLabel: '{{ page.redirect.from }}',
+      hitCallback: function() { location="{{ page.redirect.to }}" },
+      hitCallbackFail : function () { location="{{ page.redirect.to }}" }
     });
-    location="{{ page.redirect.to }}"
   </script>
 </html>
