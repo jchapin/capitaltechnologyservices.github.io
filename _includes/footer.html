@@ -42,8 +42,15 @@
           <li class="hidden-xs">fax: <a href="tel:{{ site.faxNumber | replace: '(', '' | replace: ')', '' | replace: '-', '' | replace: ' ', '' }}"><span itemprop="faxNumber">{{ site.faxNumber }}</span></a></li>
         </ul>
         <meta itemprop="areaServed" content="Philadelphia, PA" />
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <meta itemprop="streetAddress" content="2401 Walnut St, Suite #102" />
+          <meta itemprop="addressLocality" content="Philadelphia" />
+          <meta itemprop="addressRegion" content="PA" />
+          <meta itemprop="postalCode" content="19103" />
+        </div>
         <meta itemprop="areaServed" content="Nashville, TN" />
         <meta itemprop="logo" content="{{ site.url }}/images/logo.png" />
+        <meta itemprop="image" content="{{ site.url }}/images/logo-square.png" />
         <meta itemprop="naics" content="{{ site.naics }}" />
         <meta itemprop="url" content="{{ site.url }}" />
       </div>
