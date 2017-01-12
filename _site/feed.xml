@@ -4,10 +4,10 @@
     <title>Capital Technology Services</title>
     <description>Capital Technology Services specializes in web application development in Ruby and PHP. The company has development staff based in Philadelphia, PA and Nashville, TN.
 </description>
-    <link>http://www.cts-llc.net/</link>
-    <atom:link href="http://www.cts-llc.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Jan 2017 15:04:19 -0500</pubDate>
-    <lastBuildDate>Thu, 12 Jan 2017 15:04:19 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Jan 2017 15:15:44 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Jan 2017 15:15:44 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -95,8 +95,8 @@ the new deployment is functional. Then you can use Google’s web based console
 to migrate traffic over to the new release when you know everything is working.&lt;/p&gt;
 </description>
         <pubDate>Thu, 12 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://www.cts-llc.net/2017/01/12/rails-in-google-flex-environment-asset-issue.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2017/01/12/rails-in-google-flex-environment-asset-issue.html</guid>
+        <link>http://localhost:4000/2017/01/12/rails-in-google-flex-environment-asset-issue.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/12/rails-in-google-flex-environment-asset-issue.html</guid>
         
         
       </item>
@@ -193,8 +193,8 @@ concerned with security can adopt 2FA at their own pace.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;mailto:sales@cts-llc.net?subject=I need two-factor authentication&quot;&gt;Contact us to about enabling two-factor authentication in your software.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://www.cts-llc.net/2017/01/03/adopt-2fa.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2017/01/03/adopt-2fa.html</guid>
+        <link>http://localhost:4000/2017/01/03/adopt-2fa.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/03/adopt-2fa.html</guid>
         
         
       </item>
@@ -270,8 +270,8 @@ server configuration tweaks.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;mailto:sales@cts-llc.net?subject=Improve My Site Performance&quot;&gt;Contact us to improve your website’s performance.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://www.cts-llc.net/2017/01/02/check-your-pagespeed.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2017/01/02/check-your-pagespeed.html</guid>
+        <link>http://localhost:4000/2017/01/02/check-your-pagespeed.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/02/check-your-pagespeed.html</guid>
         
         
       </item>
@@ -320,8 +320,8 @@ submitting forms, and completing purchases.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;mailto:sales@cts-llc.net?subject=Improve My SSL Configuration&quot;&gt;Contact us to test and improve your SSL installation.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://www.cts-llc.net/2017/01/01/new-years-resolutions-better-ssl-security.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2017/01/01/new-years-resolutions-better-ssl-security.html</guid>
+        <link>http://localhost:4000/2017/01/01/new-years-resolutions-better-ssl-security.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/01/new-years-resolutions-better-ssl-security.html</guid>
         
         
       </item>
@@ -487,8 +487,8 @@ or web server level with minimal effort.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 26 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://www.cts-llc.net/2016/11/26/website-audit-checklist.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2016/11/26/website-audit-checklist.html</guid>
+        <link>http://localhost:4000/2016/11/26/website-audit-checklist.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/11/26/website-audit-checklist.html</guid>
         
         
       </item>
@@ -517,8 +517,8 @@ the invoice, creating a recurring invoice when necessary.
 &lt;/ol&gt;
 </description>
         <pubDate>Wed, 07 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://www.cts-llc.net/2016/09/07/billing-checklist.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2016/09/07/billing-checklist.html</guid>
+        <link>http://localhost:4000/2016/09/07/billing-checklist.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/07/billing-checklist.html</guid>
         
         
       </item>
@@ -595,8 +595,8 @@ it in the cloud storage container.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Fri, 26 Aug 2016 00:00:00 -0400</pubDate>
-        <link>http://www.cts-llc.net/2016/08/26/converting-from-heroku-postgresql-to-google-cloud-sql.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2016/08/26/converting-from-heroku-postgresql-to-google-cloud-sql.html</guid>
+        <link>http://localhost:4000/2016/08/26/converting-from-heroku-postgresql-to-google-cloud-sql.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/08/26/converting-from-heroku-postgresql-to-google-cloud-sql.html</guid>
         
         
       </item>
@@ -860,8 +860,8 @@ compatible documentation describing the intention of the class or method.&lt;/p&
 &lt;p&gt;&lt;a href=&quot;http://docs.ruby-lang.org/en/2.3.0/RDoc/Markup.html&quot;&gt;RDoc Markup&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Aug 2016 00:00:00 -0400</pubDate>
-        <link>http://www.cts-llc.net/2016/08/15/project-documentation.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2016/08/15/project-documentation.html</guid>
+        <link>http://localhost:4000/2016/08/15/project-documentation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/08/15/project-documentation.html</guid>
         
         
       </item>
@@ -992,8 +992,8 @@ has obtained from the client, and proceed through the cycle again.&lt;/li&gt;
 
 </description>
         <pubDate>Mon, 15 Aug 2016 00:00:00 -0400</pubDate>
-        <link>http://www.cts-llc.net/2016/08/15/developers-checklist.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2016/08/15/developers-checklist.html</guid>
+        <link>http://localhost:4000/2016/08/15/developers-checklist.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/08/15/developers-checklist.html</guid>
         
         
       </item>
@@ -1057,8 +1057,8 @@ Software Development&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 24 Jul 2016 00:00:00 -0400</pubDate>
-        <link>http://www.cts-llc.net/2016/07/24/junior-to-mid-level-project-manager-job-description.html</link>
-        <guid isPermaLink="true">http://www.cts-llc.net/2016/07/24/junior-to-mid-level-project-manager-job-description.html</guid>
+        <link>http://localhost:4000/2016/07/24/junior-to-mid-level-project-manager-job-description.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/24/junior-to-mid-level-project-manager-job-description.html</guid>
         
         
       </item>
