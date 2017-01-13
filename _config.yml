@@ -21,6 +21,7 @@ twitter_username: capitaltech
 markdown: kramdown
 sass:
   sass_dir: _sass
+  style: compressed
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
