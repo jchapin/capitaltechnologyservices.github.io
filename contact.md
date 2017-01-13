@@ -49,11 +49,12 @@ Nashville
 
 <div class="row">
   <div class="four columns">
-    <p>The Skillery<br>1323 6TH AVE N<br>NASHVILLE TN 37208-2603</p>
-    <p><a href="https://maps.google.com?daddr=1323+6TH+AVE+N+NASHVILLE+TN+37208" target="_blank">Get Directions</a></p>
+    <p>Looking for a new location...</p>
+    <p>
+      One of the realities of coworking is that occasionally you have to pick up
+      and move. Our old coworking space closed its doors in January of 2017.
+    </p>
   </div>
-  <div class="four columns"><img class="framed u-max-full-width" src="/images/nashville.png"></div>
-  <div class="four columns"><img class="framed u-max-full-width" src="/images/theskillery.png"></div>
 </div>
 
 <hr>
