@@ -9,6 +9,13 @@ excerpt: >
 
 {{ page.excerpt }}
 
+1.  It has to, "look good"
+
+    This is a potentially frustrating goal. But if there is anything
+    misshapen, distorted, inconsistent, or distracting about the changes
+    and particularly if there was no specification to change the element
+    that has changed, the modifications cannot pass QA.
+
 1.  Validate against W3C standards
     1.  If the page is new it must be 100% compliant with W3C validation
         standards.
@@ -27,6 +34,17 @@ excerpt: >
         example, if the primary menu breaks to a second line at a resolution
         close to one of the break points for mobile and tablet resolutions, we
         will want to know about it.
+    1.  If there is a grid system implemented on the page that allows definition
+        of column widths at multiple layout sizes, check that there are explicit
+        definitions of the width of each of the columns at each layout size. For
+        example:
+
+        If there is a tabular layout of data that has too much information for
+        it all to be displayed on the mobile layout, see that less critical
+        information is hidden at mobile resolutions. If you do not have a
+        definition for what information can or should be hidden at mobile
+        resolutions, seek it.
+
 1.  Validate that all user interface controls are localized.
     1.  Make sure that all controls use localizations (i.e. ```t(:submit)```)
         instead of "Submit"
