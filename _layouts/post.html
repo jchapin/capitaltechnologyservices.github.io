@@ -20,6 +20,10 @@ layout: default
       </span>
       {% if page.meta %} • {{ page.meta }}{% endif %}
     </p>
+    <div class="sharing-links">
+      <div class="fb-share-button" data-href="{{ page.url }}" data-layout="button_count"></div>
+      <a class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
+    </div>
   </header>
   <article class="post-content">
     {{ content }}
