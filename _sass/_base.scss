@@ -67,22 +67,33 @@ a {
   }
 }
 
+.sharing-links {
+  float: right;
+
+  .fb_iframe_widget span { vertical-align: baseline !important; }
+}
+
 .sendgrid-subscription-widget {
   text-align : center;
+
   form {
     label {
       input { width : 100%; }
       span { display : none; }
     }
+
     input[type="submit"] {
       color: $print-light;
       background-color: $accent-dark;
-      border-color: $accent-dark; }
+      border-color: $accent-dark;
+    }
+
     input[type="submit"]:hover,
     input[type="submit"]:focus {
       color: $print-light;
       background-color: $accent-darker;
-      border-color: $accent-darker; }
+      border-color: $accent-darker;
+    }
   }
 }
 
