@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Killing Undead Issues"
-title_short: "Killing Undead Issues"
+title: "Issues of the Undead Variety"
+title_short: "Issues of the Undead Variety"
 excerpt: >
   A couple of times a year a developer or stakeholder will reopen a closed issue
   on a project we maintain. We discourage reopening issues. Why? Because no one
