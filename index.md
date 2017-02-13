@@ -8,6 +8,7 @@ redirect_from:
   - /philadelphia/
   - /philly/
   - /qr-philly/
+  - /twitter-phl/
 ---
 
 Web-based applications and services are the backbone of Internet companies.
