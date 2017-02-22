@@ -4,9 +4,9 @@ title: "PPTP on OS X Just One Last Time"
 title_short: "PPTP on OS X Just One Last Time"
 excerpt: >
   Apple killed off its support for PPTP VPNs when it released OS X in September
-  of 2016. There was one application we had to maintain and the only way to
-  connect to update it was via this out-of-favor protocol. Here's how to get in,
-  get the job done over PPTP one last time.
+  of 2016. There was one application we had to maintain where the only way to
+  connect and update it was via this out-of-favor protocol. Here's how to get
+  in and get the job done over PPTP one last time.
 ---
 
 {{ page.excerpt }}
@@ -111,14 +111,14 @@ pptp_wait_input: Address added. previous interface setting...
 ```
 
 What you will need to do next, in order to make sure you're not just sending
-requests out of the wrong interface is to add a route to the host you need to
+requests out of the wrong interface, is to add a route to the host you need to
 contact on the other network:
 
 ```
 sudo route add -host WWW.XXX.YYY.ZZZ -interface ppp0
 ```
 
-Then you should be able to browse, ssh, ping, or do whateever you need to with
+Then you should be able to browse, ssh, ping, or do whatever you need to with
 the host on the other side.
 
 ## Well I could just buy a VPN client...
