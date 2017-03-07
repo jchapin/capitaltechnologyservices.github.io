@@ -12,6 +12,32 @@ excerpt: >
 
 {{ page.excerpt }}
 
+## Update - 2017-03-07
+
+This morning we ran an update:
+
+```
+gcloud components update
+```
+
+Our previous version of 135.0.0 was updated to 146.0.0, and we had no asset
+issues upon deployment.
+
+```
+Google Cloud SDK 146.0.0
+bq 2.0.24
+bq-nix 2.0.24
+core 2017.02.28
+core-nix 2016.11.07
+gcloud
+gcloud-deps 2017.02.28
+gcloud-deps-darwin-x86_64 2017.02.21
+gsutil 4.22
+gsutil-nix 4.18
+kubectl
+kubectl-darwin-x86_64 1.5.3
+```
+
 ## The Problem - No Fingerprints on Assets
 
 At the end of most deployments we will run ```gcloud components update``` when
@@ -46,10 +72,10 @@ This restored us to:
     bq-nix 2.0.24
     core 2016.11.11
     core-nix 2016.11.07
-    gcloud 
+    gcloud
     gsutil 4.22
     gsutil-nix 4.18
-    kubectl 
+    kubectl
     kubectl-darwin-x86_64 1.4.4
 
 After running another deployment we confirmed that all of our assets and their
@@ -62,10 +88,10 @@ for the problem yet. As of this morning the latest available Google Cloud SDK is
     bq-nix 2.0.24
     core 2017.01.11
     core-nix 2016.11.07
-    gcloud 
+    gcloud
     gsutil 4.22
     gsutil-nix 4.18
-    kubectl 
+    kubectl
     kubectl-darwin-x86_64 1.5.1
 
 ## A Note on Deployment
