@@ -3,6 +3,7 @@ layout: post
 title: "Adopt the Habit of Submitting Small Pull Requests"
 title_short: "Submitting Small Pull Requests"
 author: "Chapin, John C."
+image: '/images/posts/staircase-of-risk.jpg'
 excerpt: >
   "How would you test if you were a superhero?", my wife asks me one evening.
   "Well, if I thought I could fly I would probably walk up a single stair, jump
@@ -12,6 +13,8 @@ excerpt: >
 ---
 
 {{ page.excerpt }}
+
+<img class="img-responsive" src="{{ page.image }}">
 
 ## I Don't Like Risk
 
@@ -33,6 +36,9 @@ from a very young age how not to get ourselves into risky or unrecoverable
 situations. But sometimes we don't adopt the habits we need to proceed safely.
 So how does a developer begin to build a feedback loop that encourages smaller,
 lower risk changes?
+
+Change your perspective on what your goal is when given an
+issue/specification/story to address.
 
 #### Your goal is not to complete the entire user story in a single pull request.
 
