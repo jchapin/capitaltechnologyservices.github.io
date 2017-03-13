@@ -13,6 +13,8 @@ excerpt: >
 
 {{ page.excerpt }}
 
+<img class="img-responsive" src="/images/posts/staircase-of-risk.jpg">
+
 ## I Don't Like Risk
 
 Okay, so according to my wife, I can sound like a cold and analytical robot when
