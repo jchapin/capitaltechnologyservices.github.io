@@ -11,7 +11,7 @@ faxNumber: '(615) 250-2489'
 language: en
 naics: '541511'
 priceRange: '$$'
-url: "http://www.cts-llc.net" # the base hostname & protocol for your site
+url: "https://www.cts-llc.net" # the base hostname & protocol for your site
 # Social Media
 facebook_company_name: capitaltechnologyservices
 github_username: capitaltechnologyservices
