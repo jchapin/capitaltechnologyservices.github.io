@@ -14,7 +14,7 @@ excerpt: >
 
 {{ page.excerpt }}
 
-<img class="img-responsive" src="{{ page.image | prepend: site.url }}">
+<img class="img-responsive" src="{{ page.image }}">
 
 ## I Don't Like Risk
 
