@@ -3,6 +3,7 @@ layout: post
 title: "Adopt the Habit of Submitting Small Pull Requests"
 title_short: "Submitting Small Pull Requests"
 author: "Chapin, John C."
+image: '/images/posts/staircase-of-risk.jpg'
 excerpt: >
   "How would you test if you were a superhero?", my wife asks me one evening.
   "Well, if I thought I could fly I would probably walk up a single stair, jump
@@ -13,7 +14,7 @@ excerpt: >
 
 {{ page.excerpt }}
 
-<img class="img-responsive" src="/images/posts/staircase-of-risk.jpg">
+<img class="img-responsive" src="{{ page.image | prepend: site.url }}">
 
 ## I Don't Like Risk
 
