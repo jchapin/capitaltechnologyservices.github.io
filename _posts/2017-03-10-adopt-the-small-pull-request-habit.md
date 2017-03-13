@@ -86,12 +86,12 @@ trying to pick out why someone changed a particular function... or deleted one.
 
 ## Testing Just Got Easier Too
 
-You know you should be thinking about and preferably writing tests for the
-application's behavior before your write a line of functional code. When you
-commit to only implement one aspect of a user story at a time, the test cases
-are easier to call to mind as well. For instance, should a user be able to omit
-their first name when completing the user profile? Should it be required? Did
-the user story even mention validating the presence of a name?
+You know you should be thinking about and writing tests for the application's
+behavior before your write a line of functional code. When you commit to only
+implement one aspect of a user story at a time, the test cases are easier to
+call to mind as well. For instance, should a user be able to omit their first
+name when completing the user profile? Should it be required? Did the user story
+even mention validating the presence of a name?
 
 ## How We're Going to Troubleshoot When Things Go Wrong (git bisect)
 
