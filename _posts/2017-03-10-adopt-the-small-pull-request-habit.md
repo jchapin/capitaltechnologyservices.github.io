@@ -38,7 +38,7 @@ So how does a developer begin to build a feedback loop that encourages smaller,
 lower risk changes?
 
 Change your perspective on what your goal is when given an
-issue/story/specification to address.
+issue/specification/story to address.
 
 #### Your goal is not to complete the entire user story in a single pull request.
 
