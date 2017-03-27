@@ -9,6 +9,7 @@ redirect_from:
   - /philadelphia/
   - /philly/
   - /qr-philly/
+  - /twitter/
   - /twitter-phl/
 ---
 
