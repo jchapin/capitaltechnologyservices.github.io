@@ -5,6 +5,7 @@ title: 'Our Focus: Web Application Development'
 title_short: 'Web App Development'
 excerpt: 'At Capital Technology Services, our focus is web application development. The company has staff based in Philadelphia, PA and Nashville, TN.'
 redirect_from:
+  - /email-john/
   - /philadelphia/
   - /philly/
   - /qr-philly/
