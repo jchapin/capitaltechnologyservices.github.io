@@ -6,10 +6,15 @@ title_short: 'Web App Development'
 excerpt: 'At Capital Technology Services, our focus is web application development. The company has staff based in Philadelphia, PA and Nashville, TN.'
 redirect_from:
   - /email-john/
+  - /facebook/
+  - /nashville/
   - /philadelphia/
   - /philly/
+  - /qr-nashville/
   - /qr-philly/
+  - /twitter/
   - /twitter-phl/
+  - /twitter-bna/
 ---
 
 Web-based applications and services are the backbone of Internet companies.
