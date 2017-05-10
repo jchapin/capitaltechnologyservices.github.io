@@ -9,7 +9,7 @@ Ruby
 
 <div class="row">
   <div class="three columns text-center">
-    <img class="u-max-full-width" src="/images/ruby.png">
+    <img alt="Ruby Logo" class="u-max-full-width" src="/images/ruby.png">
   </div>
   <div class="nine columns">
     <p>
@@ -31,7 +31,7 @@ PHP
 
 <div class="row">
   <div class="three columns text-center">
-    <img class="u-max-full-width" src="/images/php.png">
+    <img alt="PHP Logo" class="u-max-full-width" src="/images/php.png">
   </div>
   <div class="nine columns">
     <p>
@@ -52,7 +52,7 @@ Jenkins
 
 <div class="row">
   <div class="three columns text-center">
-    <img class="u-max-full-width" src="/images/jenkins.png">
+    <img alt="Jenkins Logo" class="u-max-full-width" src="/images/jenkins.png">
   </div>
   <div class="nine columns">
     <p>
