@@ -38,8 +38,12 @@ Philadelphia
       <li>CityCoho is to the right of the door on 24<sup>th</sup> Street</li>
     </ul>
   </div>
-  <div class="four columns"><img class="framed u-max-full-width" src="/images/philadelphia.png"></div>
-  <div class="four columns"><img class="framed u-max-full-width" src="/images/citycoho.png"></div>
+  <div class="four columns">
+    <img alt="Philadelphia Map" class="framed u-max-full-width" src="/images/philadelphia.png">
+  </div>
+  <div class="four columns">
+    <img alt="Photo of 2401 Walnut Street" class="framed u-max-full-width" src="/images/citycoho.png">
+  </div>
 </div>
 
 <hr>
