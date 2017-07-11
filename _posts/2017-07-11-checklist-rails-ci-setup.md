@@ -17,6 +17,16 @@ excerpt: >
 
 1.  Setup Development, Test, and Staging Environments
 
+    Many of our projects start their life on Heroku with development, test, and
+    staging environments being hosted on that platform. The dev environment is
+    for very experimental ideas and troubleshooting and is occasionally deployed
+    to manually. Test environments are used by internal QA teams. Staging
+    environments are used for client user acceptance testing before a
+    production release. The CI server (Jenkins) is setup to deploy to these
+    environments whenever master is updated. So they need to be setup prior to
+    configuring the project for CI. We can also host dev, test, and staging
+    environments on Google Cloud Services (GCS) and Amazon Web Services (AWS).
+
     1.  Change directory into the project's root directory.
 
     1.  ```heroku create app-name-dev --remote dev```
@@ -27,6 +37,12 @@ excerpt: >
 
 1.  On Jenkins, create a "New Item" cloned from one of the existing Rails 5
     Projects
+
+    All the Rails projects on Jenkins start out with a similar set of steps for
+    running CI tasks, generating reports, and sending notifications. Consult
+    the system administrator for which project to copy. You will then need to
+    Configure the CI job to connect to the appropriate repository and deployment
+    environments.
 
 1.  Add Brakeman for Security Scanning
 
