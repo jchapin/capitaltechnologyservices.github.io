@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Checklist - Continuous Integration Setup for a Rails 5 App"
+title: "Checklist - CI Setup for Rails 5"
 title_short: "Checklist - CI Setup for Rails 5"
 author: "Chapin, John C."
 excerpt: >
   A checklist of all of the steps necessary to setup continuous integration for
-  a new Rails 5 application. This list may not cover the specific details of
+  a new Rails 5 application. This list does not cover the specific details of
   configuring Jenkins, since that has already been accomplished. This checklist
   just serves as documentation of what needs to be done when we spin up a new
-  project.
+  Rails 5 project.
 ---
 
 {{ page.excerpt }}
@@ -135,6 +135,28 @@ excerpt: >
 
     1.  Submit this as a pull request.
 
-1.  Install the pre-push hook from another Rails project
+1.  Install optional tools that we do not run on Jenkins yet.
+
+    1.  sass-lint
+
+    1.  coffeelint
+
+1.  Install a pre-push hook on your local repository.
 
     1.  ```.git/hooks/pre-push```
+
+    1.  Customize the hook.
+
+        ```
+        #!/bin/sh
+        # Brakeman - Security Scanner
+        brakeman
+        # Rubocop - Ruby Code Quality
+        rubocop -c config/rubocop.yml -DR
+        # CoffeeLint - CoffeeScript Lint Check
+        coffeelint app/assets/javascripts/*.coffee
+        # Sass Lint
+        sass-lint --verbose --syntax scss
+        # Tests
+        bundle exec rake ci:setup:minitest test
+        ```
