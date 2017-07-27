@@ -16,6 +16,9 @@ layout: default
       {% endif %}
       <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
         <meta itemprop="name" content="{{ site.title }}">
+        <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+          <meta itemprop="url" content="https://www.cts-llc.net/images/logo-square.png">
+        </span>
       </span>
       {% if page.meta %} • {{ page.meta }}{% endif %}
     </p>
