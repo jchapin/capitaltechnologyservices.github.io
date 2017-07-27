@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div itemscope itemtype="http://schema.org/BlogPosting" itemprop="mainEntity" class="post">
+<div class="post" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 itemprop="headline" class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
@@ -10,7 +10,6 @@ layout: default
       </time>
       <meta itemprop="dateModified" content="{{ page.date | date: '%F' }}"/>
       {% if page.author %}
-        •
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">{{ page.author }}</span>
         </span>

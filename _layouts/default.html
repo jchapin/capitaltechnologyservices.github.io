@@ -4,7 +4,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{% if page.language %}{{ page.language }}{% elsif site.language %}{{ site.language }}{% else %}en{% endif %}">
   {% include head.html %}
-  <body>
+  <body itemscope itemtype="http://schema.org/WebPage">
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
