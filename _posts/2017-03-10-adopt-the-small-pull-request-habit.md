@@ -14,7 +14,7 @@ excerpt: >
 
 {{ page.excerpt }}
 
-<img class="img-responsive" src="{{ page.image }}">
+<img alt="helical staircase at The Lighthouse in Glasgow, Scotland" class="img-responsive" src="{{ page.image }}">
 
 ## I Don't Like Risk
 
