@@ -8,10 +8,11 @@ excerpt: >
   provide. In the event that you're an independent contractor working with us
   on a particular project, here's the Independent Contractor Agreement that we
   usually issue.
-contract_signature_date: 'July 15th, 2016'
-contract_effective_date: 'July 15th, 2016'
-contract_developer_name: 'YOUR NAME' 
 contract_company_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
+contract_developer_name: 'YOUR NAME'
+contract_effective_date: '31st of August 2018'
+contract_signature_date: '31st of August 2018'
+governing_state: 'Tennessee'
 ---
 
 {{ page.excerpt }}
@@ -26,8 +27,8 @@ terms and conditions hereby agreed upon by the parties:
 
 ## 1. Work to be Performed
 
-1.  **Term.** Company agrees to hire Contractor, at will, for a term commencing on
-    {{ page.contract_effective_date }} and continuing until terminated in
+1.  **Term.** Company agrees to hire Contractor, at will, for a term commencing
+    on {{ page.contract_effective_date }} and continuing until terminated in
     accordance with Section 4.
 
 1.  **Duties.** Contractor agrees to perform work for the Company on the terms
@@ -36,12 +37,12 @@ terms and conditions hereby agreed upon by the parties:
     performance of the duties specified in this agreement.  Contractor’s duties
     shall be as follows: planning, implementation, quality assurance,
     deployment, documentation, project management, and tasks necessary for
-    environment maintenance for custom software development.  Contractor further
-    agrees that in all such aspects of such work, Contractor shall comply with
-    the policies, standards, regulations of the Company from time to time
+    environment maintenance for software development.  Contractor further agrees
+    that in all such aspects of such work, Contractor shall comply with the
+    policies, standards, regulations of the Company from time to time
     established, and shall perform the duties assigned faithfully,
-    intelligently, to the best of their ability, and in the best interest of
-    the Company.
+    intelligently, to the best of their ability, and in the best interest of the
+    Company.
 
 ## 2. Confidentiality
 
@@ -70,15 +71,15 @@ terms and conditions hereby agreed upon by the parties:
     including all intellectual property, moral and other proprietary rights
     therein (collectively, “Work Product”) are a “work made for hire,” and shall
     be solely owned by the Company. Contractor’s work has been specially ordered
-    by the Company.  Contractor’s work is derivative of the Company’s previous
-    work and merely a contribution to the Company’s collective work.  The
+    by the Company. Contractor’s work is derivative of the Company’s previous
+    work and merely a contribution to the Company’s collective work. The
     Company is the sole author of the Services, its contents, and any work
-    embodying or derived from any portion of the Services.  The Company is also
+    embodying or derived from any portion of the Services. The Company is also
     the owner of all the intellectual property related to the Services,
     including but not limited to all technology, inventions, discoveries,
     improvements, copyrightable works, ideas, applications for patents, patents
     and trademarks related to the Services (collectively, the “Intellectual
-    Property”).  To the extent that the Services or any Work Product created by
+    Property”). To the extent that the Services or any Work Product created by
     Contractor, its agents or employees in the delivery of the Services are not
     properly characterized as “work made for hire,” or to the extent that the
     Work Product incorporates any pre-existing intellectual property of
@@ -89,7 +90,7 @@ terms and conditions hereby agreed upon by the parties:
 
 1.  **Injunction.** Contractor agrees that it would be difficult to measure
     damage to the Company from any breach by Contractor of Section 2.1 or 2.2
-    and that monetary damages would be an inadequate remedy for such breach. 
+    and that monetary damages would be an inadequate remedy for such breach.
     Accordingly, Contractor agrees that if Contractor shall breach Section 2.1
     or 2.2, the Company shall be entitled to, in addition to all other remedies
     it may have at law or equity, to an injunction or other appropriate orders
@@ -106,12 +107,12 @@ terms and conditions hereby agreed upon by the parties:
     Contractor to the Company, the Company shall pay to the Contractor based on
     number of hours worked multiplied by the current rate of the applicable
     staff member on the Contractor’s rate schedule. A copy of the current rate
-    schedule is attached to this document.  Said compensation shall be paid on a
+    schedule is attached to this document. Said compensation shall be paid on a
     monthly basis with the balance of invoices due within 30 days.
 
 1.  **Withholding; Other Benefits.** Compensation paid pursuant to this
     Agreement shall not subject to the customary withholding of income taxes
-    and other employment taxes.  Contractor shall be solely responsible for
+    and other employment taxes. Contractor shall be solely responsible for
     reporting and paying any such taxes. The Company shall not provide
     Contractor with any coverage or participation in the Company’s accident and
     health insurance, life insurance, disability income insurance, medical
@@ -138,9 +139,9 @@ terms and conditions hereby agreed upon by the parties:
 ## 5. Independent Contractor Status
 
 Contractor acknowledges that they are an independent contractor and is not an
-agent, partner, joint venturer or employee of Company.  Contractor shall have no
+agent, partner, joint venturer or employee of Company. Contractor shall have no
 authority to bind or otherwise obligate Contractor in any manner nor shall
-Contractor represent to anyone that it has a right to do so.  Contractor
+Contractor represent to anyone that it has a right to do so. Contractor
 further agrees that in the event that the Company suffers any loss or damage as
 a result of a violation of this provision Contractor shall indemnify and hold
 harmless the Company for any such loss or damage.
@@ -173,15 +174,15 @@ Contractor’s duties under this Agreement.
 
 1.  No waiver of any provision of this Agreement shall be deemed, or shall
     constitute, a waiver of any other provision, whether or not similar, nor
-    shall any waiver constitute a continuing waiver.  No waiver shall be binding
+    shall any waiver constitute a continuing waiver. No waiver shall be binding
     unless executed in writing by the party making the waiver.
 
 1.  This Agreement shall be governed by and shall be construed in accordance
-    with the laws of the State of Tennessee.
+    with the laws of the State of {{ page.governing_state }}.
 
 1.  This Agreement constitutes the entire agreement between the parties
     pertaining to its subject matter and it supersedes all prior contemporaneous
-    agreements, representations and understandings of the parties.  No
+    agreements, representations and understandings of the parties. No
     supplement, modification or amendment of this Agreement shall be binding
     unless executed in writing by all parties.
 
