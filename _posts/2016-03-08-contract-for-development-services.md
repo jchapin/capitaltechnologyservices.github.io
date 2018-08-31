@@ -13,12 +13,12 @@ contract_developer_address:
   '2401 Walnut Street, Suite 102 Philadelphia, PA 19103'
 contract_developer_jurisdiction: 'Tennessee'
 contract_developer_entity: 'Limited Liability Company'
-contract_customer_name: 'Stratable, Inc.'
-contract_customer_address: '8333 Collins Rd, Nashville, TN 37221'
-contract_customer_jurisdiction: 'Delaware'
-contract_customer_entity: 'Corporation'
+contract_customer_name: 'YOUR ORGANIZATION'
+contract_customer_address: '123 Sample Ave. Nashville, TN 37212'
+contract_customer_jurisdiction: 'STATE OF XXXXX'
+contract_customer_entity: 'ENTITY TYPE'
 contract_definition_of_software:
-  'An e-commerce system for selling and renting medical equipment.'
+  'YOUR ORGANIZATION's Ruby on Rails based web application.'
 contract_acceptance_period: '14 days'
 contract_payment_period: "30 days"
 contract_warranty_period: "90 days"
