@@ -3,16 +3,19 @@ layout: post
 title: 'Software Development Agreement'
 title_short: 'Software Development Agreement'
 excerpt: "The first time you see a vendor's contract shouldn't be when you sit down to sign it. That's why we're posting a sample agreement on the site for your review."
-contract_effective_date: 'March 9th, 2016'
+company_signed_name: John Chapin
+company_signed_title: President
+company_signed_date: 09/01/2018
+contract_effective_date: 'September 1st, 2018'
 contract_developer_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
-contract_developer_address: '1323 6th Ave N Nashville, TN 37208-2603'
+contract_developer_address: '2401 Walnut Street, Suite 102 Philadelphia, PA 19103'
 contract_developer_jurisdiction: 'Tennessee'
 contract_developer_entity: 'Limited Liability Company'
-contract_customer_name: 'YOUR ORGANIZATION'
-contract_customer_address: '123 Sample Ave. Nashville, TN 37212'
-contract_customer_jurisdiction: 'STATE OF XXXXX'
-contract_customer_entity: 'ENTITY TYPE'
-contract_definition_of_software: "YOUR ORGANIZATION's Ruby on Rails based web application"
+contract_customer_name: 'Stratable, Inc.'
+contract_customer_address: '8333 Collins Rd, Nashville, TN 37221'
+contract_customer_jurisdiction: 'Delaware'
+contract_customer_entity: 'Corporation'
+contract_definition_of_software: "An e-commerce system for selling and renting medical equipment on the Internet."
 contract_acceptance_period: "14 days"
 contract_payment_period: "30 days"
 contract_warranty_period: "90 days"
@@ -288,11 +291,11 @@ This agreement has been signed by the parties.
 
 Signed : ______________________________________________________________________
 
-Name :
+Name : {{ page.company_signed_name }}
 
-Title :
+Title : {{ page.company_signed_title }}
 
-Date :
+Date : {{ page.company_signed_date }}
 
 {{ page.contract_customer_name }}
 
