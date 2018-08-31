@@ -12,7 +12,7 @@ contract_company_name: 'Capital Technology Services (Registered as Chapin Techno
 contract_developer_name: 'YOUR NAME'
 contract_effective_date: '31st of August 2018'
 contract_signature_date: '31st of August 2018'
-contractor_rate_numb: 50.00
+contractor_rate_numb: '50.00'
 contractor_rate_unit: hour
 governing_state: 'Tennessee'
 
@@ -108,7 +108,7 @@ terms and conditions hereby agreed upon by the parties:
 
 1.  **Compensation.** In consideration of all services to be rendered by
     Contractor to the Company, the Company shall pay to the Contractor
-    {{ page.contractor_rate_numb }} per {{ page.contractor_rate_unit }} Said
+    ${{ page.contractor_rate_numb }} per {{ page.contractor_rate_unit }}. Said
     compensation shall be paid on a monthly basis with the balance of invoices
     due within 30 days of submission of a time record or invoice.
 
