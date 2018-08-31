@@ -7,16 +7,19 @@ company_signed_name: John Chapin
 company_signed_title: President
 company_signed_date: 09/01/2018
 contract_effective_date: 'September 1st, 2018'
-contract_developer_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
-contract_developer_address: '2401 Walnut Street, Suite 102 Philadelphia, PA 19103'
+contract_developer_name:
+  'Capital Technology Services (Registered as Chapin Technology Service LLC)'
+contract_developer_address:
+  '2401 Walnut Street, Suite 102 Philadelphia, PA 19103'
 contract_developer_jurisdiction: 'Tennessee'
 contract_developer_entity: 'Limited Liability Company'
 contract_customer_name: 'Stratable, Inc.'
 contract_customer_address: '8333 Collins Rd, Nashville, TN 37221'
 contract_customer_jurisdiction: 'Delaware'
 contract_customer_entity: 'Corporation'
-contract_definition_of_software: "An e-commerce system for selling and renting medical equipment on the Internet."
-contract_acceptance_period: "14 days"
+contract_definition_of_software:
+  'An e-commerce system for selling and renting medical equipment.'
+contract_acceptance_period: '14 days'
 contract_payment_period: "30 days"
 contract_warranty_period: "90 days"
 contract_restricted_period: "1 year"
@@ -28,11 +31,11 @@ contract_cure_period: "30 days"
 
 # Software Development Agreement
 
-This Software Development Agreement is made on {{ page.contract_effective_date }}
-(the "Effective Date") between {{ page.contract_developer_name }}, a
-{{ page.contract_developer_jurisdiction }} {{ page.contract_developer_entity }}
-with its principal place of business located at
-{{ page.contract_developer_address }} (the "Developer"), and
+This Software Development Agreement is made on
+{{ page.contract_effective_date }} (the "Effective Date") between
+{{ page.contract_developer_name }}, a {{ page.contract_developer_jurisdiction }}
+{{ page.contract_developer_entity }} with its principal place of business
+located at {{ page.contract_developer_address }} (the "Developer"), and
 {{ page.contract_customer_name }}, a {{ page.contract_customer_jurisdiction }}
 {{ page.contract_customer_entity }} with its principal place of business located
 at {{ page.contract_customer_address }} (the "Customer").
@@ -217,7 +220,7 @@ The parties agree as follows:
     entering into this agreement.
 1.  Termination
     1. Termination upon Notice. Either party may terminate this agreement for
-       any reason upon {{ page.contract_termination_period }} Notice to the
+       any reason upon {{ page.contract_termination_period }} notice to the
        other party.
     1.  Termination for Cause. If either party
         1. commits a material breach or material default in the performance or
