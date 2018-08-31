@@ -10,6 +10,9 @@ excerpt: >
   usually issue.
 company_name:
   'Capital Technology Services (Registered in Tennessee as Chapin Technology Service LLC)'
+company_signed_name: John Chapin
+company_signed_title: President
+company_signed_date: 09/01/2018
 contract_effective_date: '31st of August 2018'
 contract_signature_date: '31st of August 2018'
 contractor_name: 'YOUR NAME'
@@ -197,11 +200,11 @@ This agreement has been signed by the parties.
 
 Signed : ______________________________________________________________________
 
-Name :
+Name : {{ page.company_signed_name }}
 
-Title :
+Title : {{ page.company_signed_title }}
 
-Date :
+Date : {{ page.company_signed_date }}
 
 {{ page.contractor_name }}
 
