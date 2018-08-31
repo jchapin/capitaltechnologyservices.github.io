@@ -3,17 +3,23 @@ layout: post
 title: 'Software Development Agreement'
 title_short: 'Software Development Agreement'
 excerpt: "The first time you see a vendor's contract shouldn't be when you sit down to sign it. That's why we're posting a sample agreement on the site for your review."
-contract_effective_date: 'March 9th, 2016'
-contract_developer_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
-contract_developer_address: '1323 6th Ave N Nashville, TN 37208-2603'
+company_signed_name: John Chapin
+company_signed_title: President
+company_signed_date:
+contract_effective_date: 'September 1st, 2018'
+contract_developer_name:
+  'Capital Technology Services (Registered as Chapin Technology Service LLC)'
+contract_developer_address:
+  '2401 Walnut Street, Suite 102 Philadelphia, PA 19103'
 contract_developer_jurisdiction: 'Tennessee'
 contract_developer_entity: 'Limited Liability Company'
 contract_customer_name: 'YOUR ORGANIZATION'
 contract_customer_address: '123 Sample Ave. Nashville, TN 37212'
 contract_customer_jurisdiction: 'STATE OF XXXXX'
 contract_customer_entity: 'ENTITY TYPE'
-contract_definition_of_software: "YOUR ORGANIZATION's Ruby on Rails based web application"
-contract_acceptance_period: "14 days"
+contract_definition_of_software:
+  'YOUR ORGANIZATION's Ruby on Rails based web application.'
+contract_acceptance_period: '14 days'
 contract_payment_period: "30 days"
 contract_warranty_period: "90 days"
 contract_restricted_period: "1 year"
@@ -25,11 +31,11 @@ contract_cure_period: "30 days"
 
 # Software Development Agreement
 
-This Software Development Agreement is made on {{ page.contract_effective_date }}
-(the "Effective Date") between {{ page.contract_developer_name }}, a
-{{ page.contract_developer_jurisdiction }} {{ page.contract_developer_entity }}
-with its principal place of business located at
-{{ page.contract_developer_address }} (the "Developer"), and
+This Software Development Agreement is made on
+{{ page.contract_effective_date }} (the "Effective Date") between
+{{ page.contract_developer_name }}, a {{ page.contract_developer_jurisdiction }}
+{{ page.contract_developer_entity }} with its principal place of business
+located at {{ page.contract_developer_address }} (the "Developer"), and
 {{ page.contract_customer_name }}, a {{ page.contract_customer_jurisdiction }}
 {{ page.contract_customer_entity }} with its principal place of business located
 at {{ page.contract_customer_address }} (the "Customer").
@@ -209,12 +215,23 @@ The parties agree as follows:
     1. Notice of Claim. The Customer shall give prompt written notice to the
        Developer of any claim or potential claim for indemnification under this
        agreement.
-1.  Limitation of Liability. Neither party will be liable for breach-of-contract
-    damages that the breaching party could not reasonably have foreseen on
-    entering into this agreement.
+1.  Limitation of Liability.
+    1. Neither party will be liable for breach-of-contract damages that the
+       breaching party could not reasonably have foreseen upon entering into
+       this agreement.
+    1. Neither party will be liable to the other for any indirect, special,
+       punitive, exemplary or consequential damages, or incidental losses or
+       damages of any kind, including, but not limited to, lost profits, lost
+       savings or loss of use of facilities or equipment, regardless of whether
+       arising from breach of contract, warranty, tort, strict liability or
+       otherwise, even if advised of the possibility of such loss or damage, or
+       if such loss or damage could have been reasonably foreseen.
+    1. Developer's liability for any negligent acts, errors, or omissions is
+       limited to the total fees paid by the Customer to the the Developer under
+       this agreement.
 1.  Termination
     1. Termination upon Notice. Either party may terminate this agreement for
-       any reason upon {{ page.contract_termination_period }} Notice to the
+       any reason upon {{ page.contract_termination_period }} notice to the
        other party.
     1.  Termination for Cause. If either party
         1. commits a material breach or material default in the performance or
@@ -267,7 +284,7 @@ The parties agree as follows:
     1. Survival. Sections 13 (Confidentiality), 15 (Assignment of Rights), 16
        (Indemnification), 17 (Limitation of Liability), and 18.4 (Effect of
        Termination), survive the termination or expiration of this agreement.
-    1. Severability. If any part of this agreement is declared unenforceable or
+    1. Sever-ability. If any part of this agreement is declared unenforceable or
        invalid, the remainder will continue to be valid and enforceable.
     1. Waiver. A party's failure or neglect to enforce any of rights under this
        agreement will not be deemed to be a waiver of that party's rights.
@@ -288,11 +305,11 @@ This agreement has been signed by the parties.
 
 Signed : ______________________________________________________________________
 
-Name :
+Name : {{ page.company_signed_name }}
 
-Title :
+Title : {{ page.company_signed_title }}
 
-Date :
+Date : {{ page.company_signed_date }}
 
 {{ page.contract_customer_name }}
 
