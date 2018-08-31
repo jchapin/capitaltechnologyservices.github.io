@@ -8,7 +8,8 @@ excerpt: >
   provide. In the event that you're an independent contractor working with us
   on a particular project, here's the Independent Contractor Agreement that we
   usually issue.
-company_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
+company_name:
+  'Capital Technology Services (Registered in Tennessee as Chapin Technology Service LLC)'
 contract_effective_date: '31st of August 2018'
 contract_signature_date: '31st of August 2018'
 contractor_name: 'YOUR NAME'
