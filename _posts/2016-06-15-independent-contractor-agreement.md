@@ -34,29 +34,29 @@ terms and conditions hereby agreed upon by the parties:
 1.  **Duties.** Contractor agrees to perform work for the Company on the terms
     and conditions set forth in this agreement, and agrees to devote all
     necessary time and attention (reasonable periods of illness accepted) to the
-    performance of the duties specified in this agreement.  Contractor’s duties
-    shall be as follows: planning, implementation, quality assurance,
-    deployment, documentation, project management, and tasks necessary for
-    environment maintenance for software development.  Contractor further agrees
-    that in all such aspects of such work, Contractor shall comply with the
-    policies, standards, regulations of the Company from time to time
-    established, and shall perform the duties assigned faithfully,
+    performance of the duties specified in this agreement. Contractor’s duties
+    shall be as follows: participate in the planning, implementation, quality
+    assurance, deployment, documentation, project management, and tasks
+    necessary for environment maintenance for software development. Contractor
+    further agrees that in all such aspects of such work, Contractor shall
+    comply with the policies, standards, regulations of the Company from time to
+    time established, and shall perform the duties assigned faithfully,
     intelligently, to the best of their ability, and in the best interest of the
     Company.
 
 ## 2. Confidentiality
 
-1.  **Confidentiality.** Contractor acknowledges and agrees that all financial
-    and accounting records, lists of property owned by Company, including
-    amounts paid therefore, client and customer lists, and other Company data
-    and information related to its business (hereinafter collectively
-    “Confidential Information”) are valuable assets of the Company. Except for
-    disclosures required to be made to advance the business of the Company and
-    information which is a matter of public record, Contractor shall not, during
-    the term of this Agreement or after the termination of this Agreement,
-    disclose any Confidential Information to any person or use any Confidential
-    Information for the benefit of Contractor or any other person, except with
-    the prior written consent of the Company.
+1.  **Confidentiality.** Contractor acknowledges and agrees that all source
+    code, financial and accounting records, lists of property owned by Company,
+    including amounts paid therefore, client and customer lists, and other
+    Company data and information related to its business (hereinafter
+    collectively “Confidential Information”) are valuable assets of the Company.
+    Except for disclosures required to be made to advance the business of the
+    Company and information which is a matter of public record, Contractor shall
+    not, during the term of this Agreement or after the termination of this
+    Agreement, disclose any Confidential Information to any person or use any
+    Confidential Information for the benefit of Contractor or any other person,
+    except with the prior written consent of the Company.
 
 1.  **Return of Documents.** Contractor acknowledges and agrees that all
     originals and copies of records, reports, documents, lists, plans,
@@ -134,13 +134,13 @@ terms and conditions hereby agreed upon by the parties:
 
 1.  **Death.** In the event Contractor dies during the term of this Agreement,
     this Agreement shall terminate, and the Company shall pay to Contractor’s
-    estate the salary which would otherwise be payable to Contractor.
+    estate the compensation which would otherwise be payable to Contractor.
 
 ## 5. Independent Contractor Status
 
 Contractor acknowledges that they are an independent contractor and is not an
 agent, partner, joint venturer or employee of Company. Contractor shall have no
-authority to bind or otherwise obligate Contractor in any manner nor shall
+authority to bind or otherwise obligate the Company in any manner nor shall
 Contractor represent to anyone that it has a right to do so. Contractor
 further agrees that in the event that the Company suffers any loss or damage as
 a result of a violation of this provision Contractor shall indemnify and hold
