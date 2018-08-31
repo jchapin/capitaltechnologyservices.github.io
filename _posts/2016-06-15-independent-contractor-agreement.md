@@ -8,10 +8,10 @@ excerpt: >
   provide. In the event that you're an independent contractor working with us
   on a particular project, here's the Independent Contractor Agreement that we
   usually issue.
-contract_company_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
-contract_developer_name: 'YOUR NAME'
+company_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
 contract_effective_date: '31st of August 2018'
 contract_signature_date: '31st of August 2018'
+contractor_name: 'YOUR NAME'
 contractor_rate_numb: '50.00'
 contractor_rate_unit: hour
 governing_state: 'Tennessee'
@@ -22,8 +22,8 @@ governing_state: 'Tennessee'
 
 THIS AGREEMENT executed on this the {{ page.contract_signature_date }}, but
 agreed to be effective from and after {{ page.contract_effective_date }}, by
-and between {{ page.contract_company_name }} (hereinafter “Company”), and
-{{ page.contract_developer_name }} (hereinafter “Contractor”). NOW, THEREFORE,
+and between {{ page.company_name }} (hereinafter “Company”), and
+{{ page.contractor_name }} (hereinafter “Contractor”). NOW, THEREFORE,
 FOR AND IN CONSIDERATION of the mutual promises and agreements contained herein,
 Company hires Contractor, and Contractor agrees to work for Company under the
 terms and conditions hereby agreed upon by the parties:
@@ -192,7 +192,7 @@ Contractor’s duties under this Agreement.
 
 This agreement has been signed by the parties.
 
-{{ page.contract_company_name }}
+{{ page.company_name }}
 
 Signed : ______________________________________________________________________
 
@@ -202,7 +202,7 @@ Title :
 
 Date :
 
-{{ page.contract_developer_name }}
+{{ page.contractor_name }}
 
 Signed : ______________________________________________________________________
 
