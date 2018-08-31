@@ -5,7 +5,7 @@ title_short: 'Software Development Agreement'
 excerpt: "The first time you see a vendor's contract shouldn't be when you sit down to sign it. That's why we're posting a sample agreement on the site for your review."
 company_signed_name: John Chapin
 company_signed_title: President
-company_signed_date: 09/01/2018
+company_signed_date:
 contract_effective_date: 'September 1st, 2018'
 contract_developer_name:
   'Capital Technology Services (Registered as Chapin Technology Service LLC)'
@@ -284,7 +284,7 @@ The parties agree as follows:
     1. Survival. Sections 13 (Confidentiality), 15 (Assignment of Rights), 16
        (Indemnification), 17 (Limitation of Liability), and 18.4 (Effect of
        Termination), survive the termination or expiration of this agreement.
-    1. Severability. If any part of this agreement is declared unenforceable or
+    1. Sever-ability. If any part of this agreement is declared unenforceable or
        invalid, the remainder will continue to be valid and enforceable.
     1. Waiver. A party's failure or neglect to enforce any of rights under this
        agreement will not be deemed to be a waiver of that party's rights.
