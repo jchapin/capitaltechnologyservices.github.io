@@ -215,9 +215,20 @@ The parties agree as follows:
     1. Notice of Claim. The Customer shall give prompt written notice to the
        Developer of any claim or potential claim for indemnification under this
        agreement.
-1.  Limitation of Liability. Neither party will be liable for breach-of-contract
-    damages that the breaching party could not reasonably have foreseen on
-    entering into this agreement.
+1.  Limitation of Liability.
+    1. Neither party will be liable for breach-of-contract damages that the
+       breaching party could not reasonably have foreseen upon entering into
+       this agreement.
+    1. Neither party will be liable to the other for any indirect, special,
+       punitive, exemplary or consequential damages, or incidental losses or
+       damages of any kind, including, but not limited to, lost profits, lost
+       savings or loss of use of facilities or equipment, regardless of whether
+       arising from breach of contract, warranty, tort, strict liability or
+       otherwise, even if advised of the possibility of such loss or damage, or
+       if such loss or damage could have been reasonably foreseen.
+    1. Developer's liability for any negligent acts, errors, or omissions is
+       limited to the total fees paid by the Customer to the the Developer under
+       this agreement.
 1.  Termination
     1. Termination upon Notice. Either party may terminate this agreement for
        any reason upon {{ page.contract_termination_period }} notice to the
