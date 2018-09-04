@@ -2,7 +2,10 @@
 layout: post
 title: 'Software Development Agreement'
 title_short: 'Software Development Agreement'
-excerpt: "The first time you see a vendor's contract shouldn't be when you sit down to sign it. That's why we're posting a sample agreement on the site for your review."
+excerpt: >
+  The first time you see a vendor's contract shouldn't be when you sit down to
+  sign it. That's why we're posting a sample agreement on the site for your
+  review.
 company_signed_name: John Chapin
 company_signed_title: President
 company_signed_date:
@@ -18,7 +21,7 @@ contract_customer_address: '123 Sample Ave. Nashville, TN 37212'
 contract_customer_jurisdiction: 'STATE OF XXXXX'
 contract_customer_entity: 'ENTITY TYPE'
 contract_definition_of_software:
-  'YOUR ORGANIZATION's Ruby on Rails based web application.'
+  "YOUR ORGANIZATION's Ruby on Rails based web application."
 contract_acceptance_period: '14 days'
 contract_payment_period: "30 days"
 contract_warranty_period: "90 days"
@@ -193,11 +196,10 @@ The parties agree as follows:
     1. Use Solely for Purpose. The Developer shall use the Confidential
        Information in accordance with, and solely for the purpose of providing
        its services under, the terms of this agreement.
-1.  Source Code Management
-    1. Delivery and Update of Source Code. The Developer shall provide access to
-       the source code to the Customer during the entire term of the agreement
-       and maintain backups for a minimum of {{ page.contract_warranty_period }}
-       after the termination of the agreement.
+1.  Source Code Management. Delivery and Update of Source Code. The Developer
+    shall provide access to the source code to the Customer during the entire
+    term of the agreement and maintain backups for a minimum of
+    {{ page.contract_warranty_period }} after the termination of the agreement.
 1.  Assignment of Rights. Upon acceptance of the Software and payment of all
     compensation due to the Developer, the Developer agrees to grant and assign,
     and hereby grants and assigns, to the Customer its entire interest in the
@@ -215,7 +217,7 @@ The parties agree as follows:
     1. Notice of Claim. The Customer shall give prompt written notice to the
        Developer of any claim or potential claim for indemnification under this
        agreement.
-1.  Limitation of Liability.
+1.  Limitation of Liability
     1. Neither party will be liable for breach-of-contract damages that the
        breaching party could not reasonably have foreseen upon entering into
        this agreement.
