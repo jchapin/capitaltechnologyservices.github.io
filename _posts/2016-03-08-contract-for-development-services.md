@@ -196,11 +196,10 @@ The parties agree as follows:
     1. Use Solely for Purpose. The Developer shall use the Confidential
        Information in accordance with, and solely for the purpose of providing
        its services under, the terms of this agreement.
-1.  Source Code Management
-    1. Delivery and Update of Source Code. The Developer shall provide access to
-       the source code to the Customer during the entire term of the agreement
-       and maintain backups for a minimum of {{ page.contract_warranty_period }}
-       after the termination of the agreement.
+1.  Source Code Management. Delivery and Update of Source Code. The Developer
+    shall provide access to the source code to the Customer during the entire
+    term of the agreement and maintain backups for a minimum of
+    {{ page.contract_warranty_period }} after the termination of the agreement.
 1.  Assignment of Rights. Upon acceptance of the Software and payment of all
     compensation due to the Developer, the Developer agrees to grant and assign,
     and hereby grants and assigns, to the Customer its entire interest in the
