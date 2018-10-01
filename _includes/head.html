@@ -7,21 +7,22 @@
   <!-- Content Security Policy -->
   <meta http-equiv="Content-Security-Policy"
         content="default-src *;
-                font-src https: fonts.gstatic.com;
-                frame-src https: optimize.google.com;
-                img-src 'self'
-                  https: www.cts-llc.net
-                  data: optimize.google.com ssl.gstatic.com static.licdn.com
-                        stats.g.doubleclick.net syndication.twitter.com
-                        www.facebook.com www.google-analytics.com
-                        www.linkedin.com;
-                script-src 'self' 'unsafe-inline' apis.google.com
-                           connect.facebook.net optimize.google.com
-                           platform.linkedin.com platform.twitter.com
-                           www.google-analytics.com s3.amazonaws.com
-                           cdnjs.cloudflare.com calendly.com;
-                style-src 'self' 'unsafe-inline' fonts.googleapis.com
-                          optimize.google.com s3.amazonaws.com;">
+                 font-src https: fonts.gstatic.com;
+                 frame-src https: optimize.google.com;
+                 img-src 'self'
+                   https: www.cts-llc.net
+                   data: optimize.google.com ssl.gstatic.com static.licdn.com
+                         stats.g.doubleclick.net syndication.twitter.com
+                         www.facebook.com www.google-analytics.com
+                         www.linkedin.com;
+                 object-src 'none';
+                 script-src 'self' 'unsafe-inline' apis.google.com
+                            connect.facebook.net optimize.google.com
+                            platform.linkedin.com platform.twitter.com
+                            www.google-analytics.com s3.amazonaws.com
+                            cdnjs.cloudflare.com calendly.com;
+                 style-src 'self' 'unsafe-inline' fonts.googleapis.com
+                           optimize.google.com s3.amazonaws.com;">
   <!-- OpenGraph -->
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:type" content="website" />
