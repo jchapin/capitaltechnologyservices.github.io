@@ -48,21 +48,6 @@ Philadelphia
 
 <hr>
 
-Nashville
----------
-
-<div class="row">
-  <div class="four columns">
-    <p>Looking for a new location...</p>
-    <p>
-      One of the realities of coworking is that occasionally you have to pick up
-      and move. Our old coworking space closed its doors in January of 2017.
-    </p>
-  </div>
-</div>
-
-<hr>
-
 Request an Appointment
 ---------
 
