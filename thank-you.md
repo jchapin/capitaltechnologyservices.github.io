@@ -4,4 +4,4 @@ title: Thank You
 permalink: /thank-you/
 ---
 
-Thank you for reaching out to us. We will contact you as soon as possible.
+We appreciate your time and attention and will contact you as soon as possible.
