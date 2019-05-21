@@ -6,6 +6,27 @@ permalink: /contact/
 
 <div class="row">
   <div class="twelve columns">
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/thank-you';}"></iframe>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeSYqiFcKIPCRA8aWG_8homQn7oCvYE3odSH9yk7aJKD9c7qg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+      <label>E-Mail Address *</label>
+      <input class="u-full-width" type="email" placeholder="you@yourdomain.com" name="emailAddress" required>
+      <label>Name *</label>
+      <input class="u-full-width" type="text" name="entry.1190691968" required>
+      <label>Phone</label>
+      <input class="u-full-width" type="text" placeholder="+1-615-555-1234" name="entry.1341641234">
+      <label>Message *</label>
+      <textarea class="u-full-width" rows="5" name="entry.1079813606" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+E-Mail Addresses
+------------
+
+<div class="row">
+  <div class="twelve columns">
     <table class="u-full-width">
       <tr>
         <td>Sales:</td>
@@ -15,16 +36,11 @@ permalink: /contact/
         <td>Support:</td>
         <td><a href="mailto:support@cts-llc.net">support@cts-llc.net</a></td>
       </tr>
-      <tr>
-        <td>Phone:</td>
-        <td><a href="tel:6152502449">(615)-250-2449</a></td>
-      </tr>
-      <tr><td>Fax:</td><td>(615)-250-2489</td></tr>
     </table>
   </div>
 </div>
 
-Philadelphia
+Office
 ------------
 
 <div class="row">
@@ -43,19 +59,5 @@ Philadelphia
   </div>
   <div class="four columns">
     <img alt="Photo of 2401 Walnut Street" class="framed u-max-full-width" src="/images/citycoho.png">
-  </div>
-</div>
-
-<hr>
-
-Request an Appointment
----------
-
-<div class="row">
-  <div class="twelve columns">
-    <!-- Calendly inline widget begin -->
-    <div class="calendly-inline-widget" data-url="https://calendly.com/johncchapin" style="min-width:295px;height:580px;"></div>
-    <script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
-    <!-- Calendly inline widget end -->
   </div>
 </div>
