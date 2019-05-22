@@ -17,20 +17,32 @@ redirect_from:
   - /twitter-bna/
 ---
 
-Web-based applications and services are the backbone of Internet companies.
-Nearly all mobile, desktop, and wearable applications send to or consume data
-from software residing on the Internet. That is why we have chosen to make web
-development our core service. Web apps are the linchpin of modern businesses.
+Web-based applications and services are at the heart of any company's Internet
+operations. Nearly all mobile, desktop, and wearable applications send to or
+consume data from APIs, and the administration of that data occurs via a web
+browser. That is why we have chosen to make web-based application development
+of our core service. Web apps are the linchpin of modern businesses.
 
-Working with us means that the most critical components of your online presence
-won't be treated as an afterthought. We don't adopt a technology until we are
-confident that it is the right tool for the job. We don't pursue a line of
-business or a project when we are not certain in our ability to bring value to
-our clients. When a skill outside of our area of expertise is needed, we partner
-with organizations that specialize in mobile development, marketing, and consult
-in a variety of vertical and horizontal markets.
+Working with a company that specializes in web-application development means
+that what should be your most essential software won't be ignored in favor of
+more visible client applications. Many development companies cut corners and
+divide their time while working on administration tools alongside mobile
+software. We do not. Working with a company that has invested the time to
+understand and improve the languages, software, and processes they use saves
+money and lowers risk. Where other developers may use your project as an
+opportunity to experiment with bleeding edge technology and train themselves at
+your expense, we will not. We believe that our depth of experience and our
+familiarity with our tools are the primary reason you should do business with
+us. We don't pursue a line of business or a project when we are not confident in
+our ability to bring value to our clients. We're not a software development
+company that's interested in selling you marketing services, and you shouldn't
+engage a marketing company to develop software either. When a skill outside of
+our area of expertise is needed, we partner with organizations that specialize
+in mobile development, marketing, and consult in a variety of vertical and
+horizontal markets.
 
-We want your product to be well engineered, well tested, and well monitored.
+Work with us, and we will ensure that your web-based software and APIs will be
+well engineered, thoroughly tested, and properly monitored.
 
 <h2 class="text-center">Request More Information</h2>
 
