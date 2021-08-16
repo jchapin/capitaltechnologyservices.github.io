@@ -1,32 +1,38 @@
 ---
-name: 'Pull Request Submission Checklist'
-uses: actions/github-script@0.3.0
-if: github.event_name == 'pull_request'
-with:
-  github-token: ${{ secrets.GITHUB_TOKEN }}
-  script: |
-    const { issue: { number: issue_number }, repo: { owner, repo }  } = context;
-    github.issues.createComment({
-      issue_number,
-      owner,
-      repo,
-      body: "Thank you for the submitted pull request.
+on: pull_request
+jobs:
+  pr_submission_checklist:
+    runs-on: ubuntu-latest
+    name: Pull Request Submission Checklist
+    steps:
+      - name: Comment PR
+        uses: actions/github-script@0.3.0
+        if: github.event_name == 'pull_request'
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { issue: { number: issue_number }, repo: { owner, repo }  } = context;
+            github.issues.createComment({
+              issue_number,
+              owner,
+              repo,
+              body: "Thank you for the submitted pull request.
 
-             Here is a final checklist of items to perform before submitting this for review:
+                     Here is a final checklist of items to perform before submitting this for review:
 
-             - [ ] Review your pull request line-by-line, commenting on each change, and confirming each change is correct.
+                     - [ ] Review your pull request line-by-line, commenting on each change, and confirming each change is correct.
 
-             - [ ] Review any linter, test coverage, or other automated QA tools for suggested improvements.
+                     - [ ] Review any linter, test coverage, or other automated QA tools for suggested improvements.
 
-             - [ ] If the pull request closes an issue, link that issue with a comment or through the Github UI.
+                     - [ ] If the pull request closes an issue, link that issue with a comment or through the Github UI.
 
-             - [ ] Post evidence of the changes to the pull request or the associated issue:
+                     - [ ] Post evidence of the changes to the pull request or the associated issue:
 
-                 1.  Screen shots
+                         1.  Screen shots
 
-                 2.  Files
+                         2.  Files
 
-                 3.  Other evidence (i.e. logs, results from profiling tools, etc.)
+                         3.  Other evidence (i.e. logs, results from profiling tools, etc.)
 
-             - [ ] Select one or more people to review the changes."
-    });
+                     - [ ] Select one or more people to review the changes."
+            });
