@@ -12,4 +12,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const { issue: { number: issue_number }, repo: { owner, repo }  } = context;
-            github.issues.createComment({issue_number, owner, repo, body: "Thank you for the submitted pull request."});
+            github.issues.createComment({issue_number, owner, repo, body: "Thank you for the submitted pull request.\n\nHere is a final checklist of items to perform before submitting this for review:\n\n- [ ] Review your pull request line-by-line, commenting on each change, and confirming each change is correct.\n\n- [ ] Review any linter, test coverage, or other automated QA tools for suggested improvements.\n\n- [ ] If the pull request closes an issue, link that issue with a comment or through the Github UI.\n\n- [ ] Post evidence of the changes to the pull request or the associated issue:\n\n    1.  Screen shots\n\n    2.  Files\n\n    3.  Other evidence (i.e. logs, results from profiling tools, etc.)\n\n- [ ] Select one or more people to review the changes."
+            });
