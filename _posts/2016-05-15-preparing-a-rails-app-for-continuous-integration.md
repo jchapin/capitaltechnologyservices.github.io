@@ -3,6 +3,7 @@ layout: post
 title: 'Preparing a Ruby on Rails Application for Continuous Integration on Jenkins'
 title_short: 'Preparing a Rails App for CI on Jenkins'
 excerpt: "When we take on a new client, it is important that we begin monitoring product quality right away. In this post we discuss how we use continuous integration to monitor and improve our work."
+redirect_to: /
 ---
 
 Setting up continuous integration (CI) is an essential task whether we are

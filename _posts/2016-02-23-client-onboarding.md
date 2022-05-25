@@ -3,6 +3,7 @@ layout: post
 title: 'Client Onboarding Checklist'
 title_short: 'Client Onboarding Checklist'
 excerpt: "What does it take to get started on your web application project? In this post we walk through the initial onboarding steps we take with every client."
+redirect_to: /
 ---
 
 {{ page.excerpt }}

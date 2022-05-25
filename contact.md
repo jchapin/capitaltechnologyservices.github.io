@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+redirect_to: /
 ---
 
 <div class="row">

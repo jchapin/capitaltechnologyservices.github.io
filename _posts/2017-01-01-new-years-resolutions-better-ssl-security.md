@@ -5,6 +5,7 @@ title_short: "Improve Your SSL Configuration"
 excerpt: >
   When users connect to your website are you sure that the data they send you
   is properly secured?
+redirect_to: /
 ---
 
 {{ page.excerpt }}

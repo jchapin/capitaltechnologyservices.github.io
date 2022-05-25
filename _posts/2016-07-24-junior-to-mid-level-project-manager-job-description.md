@@ -7,6 +7,7 @@ excerpt: >
   the scope, budget, and timeline of software development projects. As of July
   24th, 2016 we have an opening for a junior to mid-level project manager in
   Philadelphia, PA.
+redirect_to: /
 ---
 
 {{ page.excerpt }}

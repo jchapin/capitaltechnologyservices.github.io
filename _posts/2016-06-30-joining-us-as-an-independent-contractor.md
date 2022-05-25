@@ -3,6 +3,7 @@ layout: post
 title: 'Independent Contractor Onboarding Checklist'
 title_short: 'Independent Contractor Onboarding Checklist'
 excerpt: "We frequently work with independent contractors on development and consulting projects. In this post we will run through the checklist we complete when an IC joins us to work on a project."
+redirect_to: /
 ---
 
 1.  Collect Signed Independant Contracting Agreement

@@ -2,6 +2,7 @@
 layout: page
 title: The Tools We Use
 permalink: /tools/
+redirect_to: /
 ---
 
 Ruby

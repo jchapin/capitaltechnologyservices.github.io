@@ -5,6 +5,7 @@ title_short: "Measure Site Performance"
 excerpt: >
   If your site is slow to load you're losing mobile market share and better
   placement in search engine results.
+redirect_to: /
 ---
 
 {{ page.excerpt }}

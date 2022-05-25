@@ -6,6 +6,7 @@ excerpt: >
   A couple of times a year a developer or stakeholder will reopen a closed issue
   on a project we maintain. We discourage reopening issues. Why? Because no one
   wins when zombie issues rise from the grave.
+redirect_to: /
 ---
 
 {{ page.excerpt }}

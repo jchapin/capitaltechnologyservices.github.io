@@ -28,6 +28,7 @@ contract_warranty_period: "90 days"
 contract_restricted_period: "1 year"
 contract_termination_period: "14 days"
 contract_cure_period: "30 days"
+redirect_to: /
 ---
 
 {{ page.excerpt }}

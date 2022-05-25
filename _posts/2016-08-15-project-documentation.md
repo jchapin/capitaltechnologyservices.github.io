@@ -6,6 +6,7 @@ excerpt: >
   This article describes the types of documentation that need to accompany each
   project we're involved with and standards to which that documentation must
   conform.
+redirect_to: /
 ---
 
 {{ page.excerpt }}

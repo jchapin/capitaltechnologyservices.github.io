@@ -10,6 +10,7 @@ excerpt: >
   back to the ground and repeat the process by climbing one more stair until
   I'm proven right or wrong."... "That sounds like something Amazon Alexa would
   say."
+redirect_to: /
 ---
 
 {{ page.excerpt }}

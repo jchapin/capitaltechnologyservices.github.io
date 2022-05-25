@@ -7,6 +7,7 @@ excerpt: >
   of 2016. There was one application we had to maintain where the only way to
   connect and update it was via this out-of-favor protocol. Here's how to get
   in and get the job done over PPTP one last time.
+redirect_to: /
 ---
 
 {{ page.excerpt }}

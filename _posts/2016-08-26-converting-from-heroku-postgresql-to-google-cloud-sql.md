@@ -5,6 +5,7 @@ title_short: "Rails - Converting from PostgreSQL to MySQL"
 excerpt: >
   This article covers converting from Heroku PostgreSQL to Google Cloud SQL,
   which uses MySQL for its RDBMS.
+redirect_to: /
 ---
 
 {{ page.excerpt }}
