@@ -8,6 +8,7 @@ excerpt: >
   Engine's environment yesterday (2017-01-12) and the links to all of our assets
   broke. In short, roll back the version of Google's Cloud Components and it
   will probably fix your links.
+redirect_to: /
 ---
 
 {{ page.excerpt }}

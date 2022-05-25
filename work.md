@@ -2,6 +2,7 @@
 layout: page
 title: Our Work
 permalink: /work/
+redirect_to: /
 ---
 
 Our clients have important missions. It's our job to back them up with the best

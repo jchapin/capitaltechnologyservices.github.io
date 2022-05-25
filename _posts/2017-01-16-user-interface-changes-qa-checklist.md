@@ -5,6 +5,7 @@ title_short: "Checklist - User Interface Changes"
 excerpt: >
   When a pull request changes any aspects of an application's user interface
   run through this checklist.
+redirect_to: /
 ---
 
 {{ page.excerpt }}

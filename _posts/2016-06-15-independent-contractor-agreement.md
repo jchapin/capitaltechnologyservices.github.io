@@ -19,7 +19,7 @@ contractor_name: 'YOUR NAME'
 contractor_rate_numb: '50.00'
 contractor_rate_unit: hour
 governing_state: 'Tennessee'
-
+redirect_to: /
 ---
 
 {{ page.excerpt }}

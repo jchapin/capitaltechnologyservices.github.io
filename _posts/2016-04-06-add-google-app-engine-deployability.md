@@ -3,6 +3,7 @@ layout: post
 title: 'Transitioning a Rails App from Heroku to Google App Engine'
 title_short: 'Transition from Heroku to GAE'
 excerpt: "This article is a work in progress covering the basic steps of deploying a Rails app on Google App Engine."
+redirect_to: /
 ---
 
 One of our clients participated in a business accelerator program affiliated

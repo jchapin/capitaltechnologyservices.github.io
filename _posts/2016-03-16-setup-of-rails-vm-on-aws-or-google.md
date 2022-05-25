@@ -3,6 +3,7 @@ layout: post
 title: 'Setup of Standard Ruby / Rails App Virtual Machine on EC2 or Google Cloud'
 title_short: 'Setup of Standard Ruby / Rails App VM'
 excerpt: "A set of instructions compiled for a client setting up their own virtual machine for hosting a Rails application on Amazon EC2 or Google Cloud."
+redirect_to: /
 ---
 
 Typically we prefer working with a Platform as a Service such as Heroku or AWS

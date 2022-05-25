@@ -9,6 +9,7 @@ excerpt: >
   configuring Jenkins, since that has already been accomplished. This checklist
   just serves as documentation of what needs to be done when we spin up a new
   Rails 5 project.
+redirect_to: /
 ---
 
 {{ page.excerpt }}

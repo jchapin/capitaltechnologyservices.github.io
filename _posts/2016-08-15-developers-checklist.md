@@ -5,6 +5,7 @@ title_short: "Developer's Checklist"
 excerpt: >
   This checklist guides developers through daily operations that will improve
   their personal efficiency and their communication with team members.
+redirect_to: /
 ---
 
 {{ page.excerpt }}

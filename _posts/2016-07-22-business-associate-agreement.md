@@ -13,6 +13,7 @@ contract_termination_date: 'July 22nd, 2017'
 contract_developer_name: 'Capital Technology Services (Registered as Chapin Technology Service LLC)'
 contract_customer_name: 'YOUR ORGANIZATION'
 contract_customer_jurisdiction: 'STATE OF TENNESSEE'
+redirect_to: /
 ---
 
 {{ page.excerpt }}
